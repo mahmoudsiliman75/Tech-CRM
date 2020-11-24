@@ -1,0 +1,42 @@
+/* START:: GLOBAL STYLES */
+body{
+  font-family: 'Cairo', sans-serif;;
+}
+/* END:: GLOBAL STYLES */
+
+
+/*  START:: CUSTOMIZE HEADER STYLE  */
+#kt_header {
+  justify-content: flex-end;
+}
+/*  END:: CUSTOMIZE HEADER STYLE  */
+
+/* START:: CUSTOMIZE ASIDE STYLE */
+.kt-aside--minimize .kt-aside__brand .kt-aside__brand-logo img,
+.kt-aside--minimize .kt-aside__brand .kt-aside__brand-logo h3 {
+  display: none;
+}
+
+.kt-grid.kt-grid--hor-desktop.kt-grid--desktop > #kt_aside_brand {
+  align-items: center;
+}
+
+.kt-grid.kt-grid--hor-desktop.kt-grid--desktop > #kt_aside_brand .kt-aside__brand-logo h3 {
+  margin: 0;
+}
+
+.kt-grid.kt-grid--hor-desktop.kt-grid--desktop > #kt_aside_brand .kt-aside__brand-logo h3 span {
+  color: #17b978;
+  font-weight: 600;
+}
+
+
+
+/* END:: CUSTOMIZE ASIDE STYLE */
+
+/* START:: CUSTOMIZE ASIDEMENU STYLE*/
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__heading, 
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__link {
+  background-color: #17b978;
+}
+/* END:: CUSTOMIZE ASIDEMENU STYLE*/
