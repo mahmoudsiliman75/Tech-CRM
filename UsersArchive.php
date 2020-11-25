@@ -20,7 +20,7 @@
         <!--START: ARCHIVE USERS DATATABLE-->
         <div class="kt-portlet__body kt-portlet__body--fit">
 
-          <table class="table" id="usersArchive" width="100%">
+          <table class="table table-responsive-sm" id="usersArchive" width="100%">
             <thead class="thead-dark">
               <tr>
                 <th>#</th>

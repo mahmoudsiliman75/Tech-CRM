@@ -11,7 +11,7 @@
         <div class="kt-portlet">
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label">
-              <h3 class="kt-portlet__head-title"> قائمة المستخدمين </h3>
+              <h3 class="kt-portlet__head-title"> جدول إدارة الموظفين </h3>
             </div>
           </div>
         <div>
@@ -20,15 +20,18 @@
         <!--START: NEW USER DATATABLE-->
         <div class="kt-portlet__body kt-portlet__body--fit">
 
-          <table class="table table-responsive-sm" id="newUserTable" width="100%">
+          <table class="table table-responsive-sm" id="newUserTable">
             <thead class="thead-dark">
               <tr>
                 <th>#</th>
                 <th> الاسم </th>
-                <th>البريد الالكترونى</th>
-                <th>الوظيفة</th>
+                <th>المسمي الوظيفي</th>
+                <th>البريد الإلكتروني</th>
+                <th>العنوان</th>
+                <th>رقم الهاتف</th>
+                <th>الراتب</th>
+                <th>تاريخ بداية التوظيف</th>
                 <th class="action">إجراء</th>
-
               </tr>
             </thead>
             <tbody>
@@ -37,7 +40,10 @@
                 <td>Land Rover</td>
                 <td>Range Rover</td>
                 <td>Orange</td>
-
+                <td>Orange</td>
+                <td>Orange</td>
+                <td>Orange</td>
+                <td>Orange</td>
                 <td align="right">
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل">
                     <i class="la la-edit"></i>
@@ -54,6 +60,10 @@
                 <td>2</td>
                 <td>GMC</td>
                 <td>Jimmy</td>
+                <td>Goldenrod</td>
+                <td>Goldenrod</td>
+                <td>Goldenrod</td>
+                <td>Goldenrod</td>
                 <td>Goldenrod</td>
                 <td align="right">
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل">
@@ -77,8 +87,7 @@
     </div>
 
 	</div>
-  <!-- END:: CONTENT -->
-
+	<!-- END:: CONTENT -->
 </div>
 
 <!-- START:: INCLUDING FOOTER -->

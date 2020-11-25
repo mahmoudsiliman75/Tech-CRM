@@ -129,6 +129,10 @@
 												<a href="hrAddNewEmployee.php" class="kt-menu__link kt-menu__toggle"> إضافة موظف جديد</a>
 											</li>
 
+											<li class="kt-menu__item">
+												<a href="hrManageEmployees.php" class="kt-menu__link kt-menu__toggle"> جدول إدارة الموظفين</a>
+											</li>
+
 										</ul>
 									</div>
 								</li>
