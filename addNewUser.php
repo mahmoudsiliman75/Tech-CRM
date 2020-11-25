@@ -41,7 +41,7 @@
               <div class="form-group col-12 col-md-6">
                 <div class="input-group">
                   <div class="input-group-prepend">
-                    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                    <span class="input-group-text"> <i class="la la-user"></i> </span>
                   </div>
                   <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
                     <option>اختار الوظيفه</option>
@@ -58,7 +58,7 @@
               <div class="form-group col-12 col-md-6">
                 <div class="input-group">
                   <div class="input-group-prepend">
-                    <span class="input-group-text"> <i class="fa fa-unlock-alt"></i> </span>
+                    <span class="input-group-text"> <i class="la la-unlock"></i> </span>
                   </div>
                   <select class="form-control kt-select2" id="kt_select2_3" name="param" multiple="multiple" placeholder="اختار الصلاحيات">
                       <option value="1">صلاحيه 1</option>
@@ -69,7 +69,6 @@
               </div>
 
             </div>
-
           </form>
           <!--END::ADD NEW USER FORM-->
 

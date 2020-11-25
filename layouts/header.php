@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow-x: hidden;">
 
 	<!-- START::HEAD -->
 	<head>
@@ -23,6 +23,10 @@
 		<!-- START:: SIMPLESELECT STYLE -->
 		<link href="assets/css/jquery.simpleselect.min.css" rel="stylesheet" type="text/css" />
 		<!-- END:: SIMPLESELECT STYLE -->
+
+		<!-- START:: UPLOADFILES STYLE -->
+		<link href="assets/plugins/custom/uppy/uppy.bundle.css" rel="stylesheet" type="text/css" />
+		<!-- END:: UPLOADFILES STYLE -->
 
 		<!--begin::Global Theme Styles(used by all pages) -->
 		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
@@ -106,6 +110,23 @@
 											</li>
 											<li class="kt-menu__item">
 												<a href="UsersArchive.php" class="kt-menu__link kt-menu__toggle">قائمة ارشيف المستخدمين</a>
+											</li>
+
+										</ul>
+									</div>
+								</li>
+
+								<li class="kt-menu__item  aria-haspopup="true">
+									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+										<i class="kt-menu__link-icon fa fa-users-cog"></i>
+										<span class="kt-menu__link-text">ادارة الموارد البشرية</span>
+										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
+									</a>
+									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+										<ul class="kt-menu__subnav">
+
+											<li class="kt-menu__item">
+												<a href="hrAddNewEmployee.php" class="kt-menu__link kt-menu__toggle"> إضافة موظف جديد</a>
 											</li>
 
 										</ul>

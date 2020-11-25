@@ -79,9 +79,17 @@
 		<script src="assets/js/scripts.bundle.js" type="text/javascript"></script>
 		<!-- END:: SIMPLESELECT SCRIPT -->
 
-		<script>
-			
+		<!-- START:: DATEPICKER SCRIPT -->
+		<script src="assets/js/pages/crud/forms/widgets/bootstrap-datepicker.js" type="text/javascript"></script>
+		<!-- START:: DATEPICKER SCRIPT -->
 
+		<!-- START:: UPLOADFILES SCRIPT -->
+		<script src="assets/plugins/custom/uppy/uppy.bundle.js" type="text/javascript"></script>
+		<script src="assets/js/pages/crud/file-upload/uppy.js" type="text/javascript"></script>
+		<script src="assets/js/pages/crud/file-upload/dropzonejs.js" type="text/javascript"></script>
+		<!-- END:: UPLOADFILES SCRIPT -->
+
+		<script>
 			$(document).ready( function () {
 
 				$('#kt_select2_3, #kt_select2_3_validate').select2({
