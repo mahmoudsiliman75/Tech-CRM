@@ -59,9 +59,41 @@
 		<script src="assets/plugins/custom/gmaps/gmaps.js" type="text/javascript"></script>
 		<!--end::Page Vendors -->
 
+		<!--START::SELECT2 SCRIPT -->
+		<script src="assets/js/pages/crud/forms/widgets/select2.js" type="text/javascript"></script>
+		<!--END::SELECT2 SCRIPT -->
+
+		<!-- SRART:: BOOTSTRAP SELECT SCRIPT -->
+		<script src="assets/js/pages/crud/forms/widgets/bootstrap-select.js" type="text/javascript"></script>
+		<!-- SRART:: BOOTSTRAP SELECT SCRIPT -->
+
+		<!-- START:: HTML DATATABEL SCRIPT -->
+		<script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+		<!-- EDD:: HTML DATATABEL SCRIPT -->
+
 		<!--begin::Page Scripts(used by this page) -->
 		<script src="assets/js/pages/dashboard.js" type="text/javascript"></script>
 		<!--end::Page Scripts -->
+
+		<!-- START:: SIMPLESELECT SCRIPT -->
+		<script src="assets/js/scripts.bundle.js" type="text/javascript"></script>
+		<!-- END:: SIMPLESELECT SCRIPT -->
+
+		<script>
+			
+
+			$(document).ready( function () {
+
+				$('#kt_select2_3, #kt_select2_3_validate').select2({
+				placeholder: "اختار الصلاحيات",
+				});
+
+				$('#newUserTable').DataTable();
+
+				$('#usersArchive').DataTable();
+
+			});
+		</script>
 	</body>
 
 	<!-- end::Body -->
