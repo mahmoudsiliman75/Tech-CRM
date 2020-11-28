@@ -9,7 +9,7 @@
 
 	</div>
 	<!-- END:: CONTENT -->
-
+</div>
 <!-- START:: INCLUDING FOOTER -->
 <?php include('layouts/footer.php') ?>
 <!-- END:: INCLUDING FOOTER -->

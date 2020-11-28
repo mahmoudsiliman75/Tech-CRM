@@ -69,6 +69,14 @@
                     </div>
                   </div>
 
+                  <div class="form-group col-12 px-4">
+                    <div class="input-group">
+                      <div class="row">
+                        <button type="submit" class="btn btn-success" style="background-color:#17b978; border:none;">حفظ</button> 
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </form>
               <!--END::ADD NEW USER FORM-->
