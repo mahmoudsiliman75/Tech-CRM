@@ -40,7 +40,7 @@
 
                 <td align="right">
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إسترجاع">
-                    <i class="la la-edit"></i>
+                    <i class="la la-rotate-left"></i>
                   </a>
                 </td>
               </tr>
@@ -51,7 +51,7 @@
                 <td>Goldenrod</td>
                 <td align="right">
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إسترجاع">
-                    <i class="la la-edit"></i>
+                    <i class="la la-rotate-left"></i>
                   </a>
                 </td>
               </tr>

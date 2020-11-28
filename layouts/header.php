@@ -137,6 +137,10 @@
 												<a href="hrManageEmployessFinac.php" class="kt-menu__link kt-menu__toggle"> إضافة حوافز او خصومات للموظفين</a>
 											</li>
 
+											<li class="kt-menu__item">
+												<a href="hrEmployeesArchive.php" class="kt-menu__link kt-menu__toggle"> قائمة ارشيف الموظفين </a>
+											</li>
+
 										</ul>
 									</div>
 								</li>
