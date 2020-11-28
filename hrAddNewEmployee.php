@@ -34,7 +34,7 @@
                 <div class="row">
                   <label class="col-form-label col-12">المسمى الوظيفي</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-user"></i> </span>
+                    <span class="input-group-text"> <i class="la la-bookmark"></i> </span>
                     <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
                       <option> اختار المسمى الوظيفي</option>
                       <option value="1">مدير نظام</option>
@@ -62,7 +62,7 @@
                 <div class="row">
                   <label class="col-form-label col-12"> العنوان</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-unlock"></i> </span>
+                    <span class="input-group-text"> <i class="la la-map-marker"></i> </span>
                     <input type="text" class="form-control" placeholder=" العنوان">
                   </div>
                 </div>
@@ -72,7 +72,7 @@
                 <div class="row">
                   <label class="col-form-label col-12"> رقم الهاتف</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-unlock"></i> </span>
+                    <span class="input-group-text"> <i class="la la-mobile"></i> </span>
                     <input type="text" class="form-control" placeholder=" رقم الهاتف">
                   </div>
                 </div>
@@ -82,7 +82,7 @@
                 <div class="row">
                   <label class="col-form-label col-12"> رقم هاتف اضافي</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-unlock"></i> </span>
+                    <span class="input-group-text"> <i class="la la-mobile"></i> </span>
                     <input type="text" class="form-control" placeholder=" رقم هاتف اضافي">
                   </div>
                 </div>
@@ -92,7 +92,7 @@
                 <div class="row">
                   <label class="col-form-label col-12"> الراتب</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-unlock"></i> </span>
+                    <span class="input-group-text"> <i class="la la-dollar" style="font-weight: bold;"></i> </span>
                     <input type="text" class="form-control" placeholder=" الراتب">
                   </div>
                 </div>

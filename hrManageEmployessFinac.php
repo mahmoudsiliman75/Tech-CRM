@@ -17,6 +17,65 @@
         <div>
         <!--START::PORTEL-->
 
+        <div class="row">
+          <div class="col-12">
+
+              <!--START:: ADD NEW USER FORM-->
+              <form class="kt-form p-3">
+                <div class="row">
+
+                  <div class="form-group col-12 col-md-4">
+                    <div class="row">
+                      <label class="col-form-label col-12">اسم الموظف</label>
+                      <div class="input-group-prepend col-12">
+                        <span class="input-group-text"> <i class="la la-pencil"></i> </span>
+                        <input type="text" class="form-control" placeholder="الإسم">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group col-12 col-md-4">
+                      <div class="row">
+                        <label class="col-form-label col-12">  الشهر</label>
+                        <div class="input-group-prepend col-12">
+                          <span class="input-group-text"> <i class="la la-calendar"></i> </span>
+                          <input type="text" class="form-control" readonly value="05/20/2017" id="kt_datepicker_3" />
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="form-group col-12 col-md-4">
+                    <div class="row">
+                      <label class="col-form-label col-12">الإجراء </label>
+                      <div class="input-group-prepend col-12">
+                        <span class="input-group-text"> <i class="la la-clipboard"></i> </span>
+                        <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
+                          <option> اختار الإجراء </option>
+                          <option value="1">اضافة سلفة</option>
+                          <option value="2"> اضافة حافز</option>
+                          <option value="3">اضافة خصم</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group col-12 col-md-4">
+                    <div class="row">
+                      <label class="col-form-label col-12"> القيمة</label>
+                      <div class="input-group-prepend col-12">
+                        <span class="input-group-text"> <i class="la la-dollar" style='font-weight: bold;'></i> </span>
+                        <input type="text" class="form-control" placeholder=" القيمة">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </form>
+              <!--END::ADD NEW USER FORM-->
+
+          </div>
+        </div>
+
         <!--START: NEW USER DATATABLE-->
         <div class="kt-portlet__body kt-portlet__body--fit">
 
@@ -24,11 +83,11 @@
             <thead class="thead-dark">
               <tr>
                 <th>#</th>
-                <th> الاسم </th>
-                <th>البريد الالكترونى</th>
-                <th>الوظيفة</th>
-                <th class="action">إجراء</th>
-
+                <th> اسم الموظف </th>
+                <th> الشهر</th>
+                <th>سلفه</th>
+                <th>حوافز</th>
+                <th>خصم</th>
               </tr>
             </thead>
             <tbody>
@@ -37,35 +96,16 @@
                 <td>Land Rover</td>
                 <td>Range Rover</td>
                 <td>Orange</td>
-
-                <td align="right">
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل">
-                    <i class="la la-edit"></i>
-                  </a>
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--warning" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="اضافة الى الارشيف">
-                    <i class="la la-hdd-o"></i>
-                  </a>
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="حذف">
-                    <i class="la la-trash"></i>
-                  </a>
-                </td>
+                <td>Orange</td>
+                <td>Orange</td>
               </tr>
               <tr>
                 <td>2</td>
                 <td>GMC</td>
                 <td>Jimmy</td>
                 <td>Goldenrod</td>
-                <td align="right">
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل">
-                    <i class="la la-edit"></i>
-                  </a>
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--warning" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="اضافة الى الارشيف">
-                    <i class="la la-hdd-o"></i>
-                  </a>
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="حذف">
-                    <i class="la la-trash"></i>
-                  </a>
-                </td>
+                <td>Goldenrod</td>
+                <td>Goldenrod</td>
               </tr>
             </tbody>
           </table>

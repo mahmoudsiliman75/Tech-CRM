@@ -21,50 +21,54 @@
             <div class="row">
 
               <div class="form-group col-12 col-md-6">
-                <div class="input-group">
-                  <div class="input-group-prepend">
+                <div class="row">
+                  <label class="col-form-label col-12">اسم المستخدم </label>
+                  <div class="input-group-prepend col-12">
                     <span class="input-group-text"> <i class="la la-pencil"></i> </span>
+                    <input type="text" class="form-control" placeholder="اسم المستخدم ">
                   </div>
-                  <input type="text" class="form-control" placeholder="الإسم">
                 </div>
               </div>
 
               <div class="form-group col-12 col-md-6">
-                <div class="input-group">
-                  <div class="input-group-prepend">
+                <div class="row">
+                  <label class="col-form-label col-12">البريد الإلكترونى </label>
+                  <div class="input-group-prepend col-12">
                     <span class="input-group-text"> <i class="la la-at"></i> </span>
+                    <input type="text" class="form-control" placeholder="البريد الإلكترونى">
                   </div>
-                  <input type="text" class="form-control" placeholder="البريد الإلكترونى">
                 </div>
               </div>
 
               <div class="form-group col-12 col-md-6">
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"> <i class="la la-user"></i> </span>
+                <div class="row">
+                  <label class="col-form-label col-12">المسمى الوظيفى </label>
+                  <div class="input-group-prepend col-12">
+                    <span class="input-group-text"> <i class="la la-bookmark"></i> </span>
+                    <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
+                      <option>اختار المسمى الوظيفى</option>
+                      <option value="1">مدير نظام</option>
+                      <option value="2">محاسب</option>
+                      <option value="3">مدير مبيعات</option>
+                      <option value="4">ممثل مبيعات</option>
+                      <option value="4">موظف</option>
+                      <option value="4">It Supervisor</option>
+                    </select>
                   </div>
-                  <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
-                    <option>اختار الوظيفه</option>
-                    <option value="1">مدير نظام</option>
-                    <option value="2">محاسب</option>
-                    <option value="3">مدير مبيعات</option>
-                    <option value="4">ممثل مبيعات</option>
-                    <option value="4">موظف</option>
-                    <option value="4">It Supervisor</option>
-                  </select>
                 </div>
               </div>
 
               <div class="form-group col-12 col-md-6">
-                <div class="input-group">
-                  <div class="input-group-prepend">
+                <div class="row">
+                  <label class="col-form-label col-12">الصلاحيات  </label>
+                  <div class="input-group-prepend col-12">
                     <span class="input-group-text"> <i class="la la-unlock"></i> </span>
-                  </div>
-                  <select class="form-control kt-select2" id="kt_select2_3" name="param" multiple="multiple" placeholder="اختار الصلاحيات">
+                    <select class="form-control kt-select2" id="kt_select2_3" name="param" multiple="multiple" placeholder="اختار الصلاحيات">
                       <option value="1">صلاحيه 1</option>
                       <option value="2">صلاحيه 2</option>
                       <option value="3">صلاحيه 3</option>
-                  </select>
+                    </select>
+                  </div>
                 </div>
               </div>
 
