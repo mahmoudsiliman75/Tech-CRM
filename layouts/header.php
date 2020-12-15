@@ -95,7 +95,7 @@
 
 								<li class="kt-menu__item  aria-haspopup="true">
 									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
-										<i class="kt-menu__link-icon fa fa-users-cog"></i>
+										<i class="kt-menu__link-icon la la-cog la-2x" style="font-size: 20px"></i>
 										<span class="kt-menu__link-text">ادارة المستخدمين</span>
 										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
 									</a>
@@ -118,7 +118,7 @@
 
 								<li class="kt-menu__item  aria-haspopup="true">
 									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
-										<i class="kt-menu__link-icon fa fa-users-cog"></i>
+										<i class="kt-menu__link-icon la la-cog la-2x" style="font-size: 20px"></i>
 										<span class="kt-menu__link-text">ادارة الموارد البشرية</span>
 										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
 									</a>
@@ -139,6 +139,27 @@
 
 											<li class="kt-menu__item">
 												<a href="hrEmployeesArchive.php" class="kt-menu__link kt-menu__toggle"> قائمة ارشيف الموظفين </a>
+											</li>
+
+										</ul>
+									</div>
+								</li>
+
+								<li class="kt-menu__item  aria-haspopup="true">
+									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+										<i class="kt-menu__link-icon la la-diamond" style="font-size: 20px;"></i>
+										<span class="kt-menu__link-text">ادارة الخدمات</span>
+										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
+									</a>
+									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+										<ul class="kt-menu__subnav">
+
+											<li class="kt-menu__item">
+												<a href="mainServices.php" class="kt-menu__link kt-menu__toggle"> الخدمات الرئيسية </a>
+											</li>
+
+											<li class="kt-menu__item">
+												<a href="#" class="kt-menu__link kt-menu__toggle"> الخدمات الفرعية </a>
 											</li>
 
 										</ul>

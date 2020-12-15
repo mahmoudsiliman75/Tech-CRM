@@ -114,6 +114,15 @@
 					},
 				});
 
+				$('#mainServices').DataTable({
+					"oLanguage": {
+						"sSearch": "",
+					},
+					language: {
+						searchPlaceholder: "Search",
+					},
+				});
+
 			});
 		</script>
 	</body>

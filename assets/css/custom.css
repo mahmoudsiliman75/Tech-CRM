@@ -136,6 +136,24 @@ body{
 }
 /* END:: CUSTOMIZE ASIDEMENU STYLE*/
 
+/* START:: CUSTOMIZE MAIN SECTION STYLE */
+.kt-container .kt-portlet {
+  min-height: 400px;
+}
+
+.kt-container .kt-portlet .kt-portlet__head .title-container button{
+  border-color: #17b978;
+  color: #17b978;
+  transition: all 0.3s ease-in-out;
+}
+
+.kt-container .kt-portlet .kt-portlet__head .title-container button:hover {
+  background-color: #17b978;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+/* END:: CUSTOMIZE MAIN SECTION STYLE */
+
 /* START:: CUSTOMIZE DATATABLE STYLE */
 .dataTables_wrapper {
   padding: 2rem !important;
