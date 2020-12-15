@@ -42,6 +42,10 @@
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إسترجاع">
                     <i class="la la-rotate-left"></i>
                   </a>
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
+                    <i class="la la-trash"></i>
+                  </a>
                 </td>
               </tr>
               <tr>
@@ -52,6 +56,10 @@
                 <td align="right">
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إسترجاع">
                     <i class="la la-rotate-left"></i>
+                  </a>
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
+                    <i class="la la-trash"></i>
                   </a>
                 </td>
               </tr>

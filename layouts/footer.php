@@ -96,9 +96,23 @@
 				placeholder: "اختار الصلاحيات",
 				});
 
-				$('#newUserTable').DataTable();
+				$('#newUserTable').DataTable({
+					"oLanguage": {
+						"sSearch": "",
+					},
+					language: {
+						searchPlaceholder: "Search",
+					},
+				});
 
-				$('#usersArchive').DataTable();
+				$('#usersArchive').DataTable({
+					"oLanguage": {
+						"sSearch": "",
+					},
+					language: {
+						searchPlaceholder: "Search",
+					},
+				});
 
 			});
 		</script>

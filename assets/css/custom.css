@@ -143,9 +143,16 @@ body{
 
 .dataTables_wrapper .dataTables_filter input,
 .dataTables_wrapper .dataTables_length select {
-  border: 1px solid #dfdfdf;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #17b978;
   margin: 5px;
 }
+
+/* .dataTables_wrapper .dataTables_filter input::placeholder {
+  color: #17b978;
+  content: "Hi from Css";
+} */
 
 .dataTables_wrapper .dataTables_filter input:focus,
 .dataTables_wrapper .dataTables_length select {
