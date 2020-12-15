@@ -101,7 +101,7 @@
 						"sSearch": "",
 					},
 					language: {
-						searchPlaceholder: "Search",
+						searchPlaceholder: "إبحث هنا",
 					},
 				});
 
@@ -110,7 +110,7 @@
 						"sSearch": "",
 					},
 					language: {
-						searchPlaceholder: "Search",
+						searchPlaceholder: "إبحث هنا",
 					},
 				});
 
@@ -119,7 +119,7 @@
 						"sSearch": "",
 					},
 					language: {
-						searchPlaceholder: "Search",
+						searchPlaceholder: "إبحث هنا",
 					},
 				});
 

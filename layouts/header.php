@@ -145,25 +145,12 @@
 									</div>
 								</li>
 
-								<li class="kt-menu__item  aria-haspopup="true">
-									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+
+								<li class="kt-menu__item" aria-haspopup="false">
+									<a href="mainServices.php" class="kt-menu__link ">
 										<i class="kt-menu__link-icon la la-diamond" style="font-size: 20px;"></i>
 										<span class="kt-menu__link-text">ادارة الخدمات</span>
-										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
 									</a>
-									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-										<ul class="kt-menu__subnav">
-
-											<li class="kt-menu__item">
-												<a href="mainServices.php" class="kt-menu__link kt-menu__toggle"> الخدمات الرئيسية </a>
-											</li>
-
-											<li class="kt-menu__item">
-												<a href="#" class="kt-menu__link kt-menu__toggle"> الخدمات الفرعية </a>
-											</li>
-
-										</ul>
-									</div>
 								</li>
 
 							</ul>

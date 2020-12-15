@@ -11,7 +11,7 @@
         <div class="kt-portlet">
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
-              <h3 class="kt-portlet__head-title">  الخدمات الرئيسية </h3>
+              <h3 class="kt-portlet__head-title">  الخدمات الفرعية </h3>
               <button type="button" class="btn btn-outline-success"> <i class="la la-plus"></i> إضافة خدمة </button>
             </div>
           </div>
@@ -36,9 +36,6 @@
                 <td>تصميم مواقع</td>
 
                 <td align="right">
-                  <a href="subServices.php" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title=" الخدمات الفرعية ">
-                    <i class="la la-align-left"></i>
-                  </a>
 
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="تعديل">
                     <i class="la la-edit"></i>
