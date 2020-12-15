@@ -12,7 +12,7 @@
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
               <h3 class="kt-portlet__head-title">  الخدمات الفرعية </h3>
-              <button type="button" class="btn btn-outline-success"> <i class="la la-plus"></i> إضافة خدمة </button>
+              <a href="addSubService.php" type="button" class="btn btn-outline-success"> <i class="la la-plus"></i> إضافة خدمة </a>
             </div>
           </div>
         <div>
