@@ -149,7 +149,6 @@
 									</div>
 								</li>
 
-
 								<li class="kt-menu__item" aria-haspopup="false">
 									<a href="mainServices.php" class="kt-menu__link ">
 										<i class="kt-menu__link-icon la la-diamond" style="font-size: 20px;"></i>
@@ -272,8 +271,8 @@
 							<div class="kt-header__topbar-item kt-header__topbar-item--user">
 								<div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="0px,0px">
 									<div class="kt-header__topbar-user">
-										<span class="kt-header__topbar-username kt-hidden-mobile">Sean</span>
-										<img alt="Pic" class="kt-radius-100" src="assets/media/users/user1.jpg" />
+										<span class="kt-header__topbar-username kt-hidden-mobile">محمود سليمان</span>
+										<img alt="Pic" class="kt-radius-100" src="assets/media/users/300_14.jpg" />
 									</div>
 								</div>
 								<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround dropdown-menu-xl">
@@ -281,10 +280,10 @@
 									<!--START: HEAD -->
 									<div class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x" style="background-image: url(assets/media/bg/bg-8.jpg)">
 										<div class="kt-user-card__avatar">
-											<img class="" alt="Pic" src="assets/media/users/user1.jpg" />
+											<img class="" alt="Pic" src="assets/media/users/300_14.jpg" />
 										</div>
 										<div class="kt-user-card__name">
-											Sean Stone
+											محمود سليمان
 										</div>
 									</div>
 									<!--END: HEAD -->
@@ -297,7 +296,7 @@
 											</div>
 											<div class="kt-notification__item-details">
 												<div class="kt-notification__item-title kt-font-bold">
-													My Profile
+													الصفحة الشخصية
 												</div>
 											</div>
 										</a>
@@ -307,31 +306,13 @@
 											</div>
 											<div class="kt-notification__item-details">
 												<div class="kt-notification__item-title kt-font-bold">
-													My Messages
-												</div>
-												<div class="kt-notification__item-time">
-													Inbox and tasks
+													صندوق الوارد
 												</div>
 											</div>
 										</a>
-
-										<a href="custom/apps/user/profile-3.html" class="kt-notification__item">
-											<div class="kt-notification__item-icon">
-												<i class="flaticon2-hourglass kt-font-brand"></i>
-											</div>
-											<div class="kt-notification__item-details">
-												<div class="kt-notification__item-title kt-font-bold">
-													My Tasks
-												</div>
-												<div class="kt-notification__item-time">
-													latest tasks and projects
-												</div>
-											</div>
-										</a>
-
 
 										<div class="kt-notification__custom kt-space-between">
-											<a href="custom/user/login-v2.html" target="_blank" class="btn btn-label btn-label-brand btn-sm btn-bold">Sign Out</a>
+											<a href="custom/user/login-v2.html" target="_blank" class="btn btn-label btn-label-brand btn-sm btn-bold"> تسجيل خروج </a>
 										</div>
 									</div>
 									<!--END: NAVIGATION -->

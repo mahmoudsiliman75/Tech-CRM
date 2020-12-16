@@ -19,14 +19,14 @@
         <div class="kt-widget kt-widget--user-profile-2">
           <div class="kt-widget__head">
             <div class="kt-widget__media">
-              <img class="kt-widget__img kt-hidden-" src="assets/media//users/user1.jpg" alt="image">
+              <img class="kt-widget__img kt-hidden-" src="assets/media//users/300_14.jpg" alt="image">
             </div>
             <div class="kt-widget__info">
               <a href="#" class="kt-widget__username">
-                Sean Stone
+                محمود سليمان
               </a>
               <span class="kt-widget__desc">
-                Head of Development
+                Front-End Developer
               </span>
             </div>
           </div>
@@ -92,6 +92,13 @@
                         <h3 class="kt-widget1__title">خصومات</h3>
                       </div>
                       <span class="kt-widget1__number kt-font-danger">300 جنيه</span>
+                    </div>
+
+                    <div class="kt-widget1__item">
+                      <div class="kt-widget1__info">
+                        <h3 class="kt-widget1__title">الراتب المستحق</h3>
+                      </div>
+                      <span class="kt-widget1__number kt-font-success">4000 جنيه</span>
                     </div>
 
                   </div>

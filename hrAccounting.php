@@ -174,9 +174,9 @@
                     <i class="la la-clock-o"></i>
                   </a>
 
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="قبض">
+                  <button type="button" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="modal" data-target="#mony-modal" data-placement="top" title="قبض" data-original-title="قبض">
                     <i class="la la-check"></i>
-                  </a>
+                  </button>
 
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="السجل المحاسبي">
                     <i class="la la-dollar" style="font-weight: bold"></i>
@@ -191,6 +191,54 @@
 
             </tbody>
           </table>
+
+          <!-- START:: MONY MODAL -->
+          <div class="modal fade" id="mony-modal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog" style="max-width: 70%">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-center w-100" id="exampleModalLabel"> دفع مرتب </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+
+                      <div class="col-6 col-md-4 mb-2">
+                        <span class="kt-badge kt-badge--dark kt-badge--xl kt-badge--rounded d-block w-100 p-3"> محمد عيد </span>
+                      </div>
+
+                      <div class="col-6 col-md-4 mb-2">
+                        <span class="kt-badge kt-badge--primary kt-badge--xl kt-badge--rounded d-block w-100 p-3">  الراتب الأساسي : 5000 </span>
+                      </div>
+
+                      <div class="col-6 col-md-4 mb-2">
+                        <span class="kt-badge kt-badge--success kt-badge--xl kt-badge--rounded d-block w-100 p-3">  عمولات و حوافز : 600 </span>
+                      </div>
+
+                      <div class="col-6 col-md-4 mb-2">
+                        <span class="kt-badge kt-badge--warning  kt-badge--xl kt-badge--rounded d-block w-100 p-3" style="color: #fff;">  خصم و سلفة : 200 </span>
+                      </div>
+
+                      <div class="col-6 col-md-4 mb-2">
+                        <span class="kt-badge kt-badge--success kt-badge--xl kt-badge--rounded d-block w-100 p-3">  الراتب المستحق : 5400 </span>
+                      </div>
+
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn  prime-bg ">تنفيذ</button>
+                  <button type="button" class="btn   btn-danger" data-dismiss="modal">إلغاء</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- END:: MONY MODAL -->
 
         </div>
         <!--END: HR ACCOUNTING DATATABLE-->

@@ -103,7 +103,7 @@
               </div>
             </div>
           </div>
-          <!-- START:: ATTENDANCE MODAL -->
+          <!-- END:: ATTENDANCE MODAL -->
 
           <!-- START:: LEAVING MODAL -->
           <div class="modal fade" id="leaving-modal" tabindex="-1" aria-hidden="true">
@@ -138,7 +138,7 @@
               </div>
             </div>
           </div>
-          <!-- START:: LEAVING MODAL -->
+          <!-- END:: LEAVING MODAL -->
 
         </div>
         <!--END: ATTENDANCE DATATABLE-->
