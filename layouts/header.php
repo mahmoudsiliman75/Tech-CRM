@@ -174,6 +174,13 @@
 									</div>
 								</li>
 
+								<li class="kt-menu__item" aria-haspopup="false">
+									<a href="contracts.php" class="kt-menu__link ">
+										<i class="kt-menu__link-icon la la-check-square" style="font-size: 20px;"></i>
+										<span class="kt-menu__link-text"> ادارة التعاقدات </span>
+									</a>
+								</li>
+
 							</ul>
 						</div>
 					</div>

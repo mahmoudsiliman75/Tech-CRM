@@ -110,6 +110,8 @@
 							'previous': 'السابق',
 							'next': 'التالى'
 						},
+						"lengthMenu": "عرض _MENU_ فى الصفحة",
+						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
 					},
 				});
 
@@ -123,6 +125,8 @@
 							'previous': 'السابق',
 							'next': 'التالى'
 						},
+						"lengthMenu": "عرض _MENU_ فى الصفحة",
+						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
 					},
 				});
 
@@ -136,8 +140,9 @@
 							'previous': 'السابق',
 							'next': 'التالى'
 						},
+						"lengthMenu": "عرض _MENU_ فى الصفحة",
+						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
 					},
-
 				});
 
 				$('#packages').DataTable({
@@ -150,8 +155,25 @@
 							'previous': 'السابق',
 							'next': 'التالى'
 						},
+						"lengthMenu": "عرض _MENU_ فى الصفحة",
+						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
 					},
 
+				});
+
+				$('#contracts').DataTable({
+					"oLanguage": {
+						"sSearch": "",
+					},
+					language: {
+						searchPlaceholder: "إبحث هنا",
+						'paginate': {
+							'previous': 'السابق',
+							'next': 'التالى'
+						},
+						"lengthMenu": "عرض _MENU_ فى الصفحة",
+						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
+					},
 				});
 
 			});

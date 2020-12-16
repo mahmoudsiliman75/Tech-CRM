@@ -1,6 +1,15 @@
 /* START:: GLOBAL STYLES */
 body{
-  font-family: 'Cairo', sans-serif;;
+  font-family: 'Cairo', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  background-color: #121212;
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #17b978;
 }
 /* END:: GLOBAL STYLES */
 
