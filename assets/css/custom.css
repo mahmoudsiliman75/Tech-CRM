@@ -33,12 +33,9 @@ body::-webkit-scrollbar-thumb {
 /*  END:: CUSTOMIZE HEADER STYLE  */
 
 /*  START:: CUSTOMIZE SUBHEADER STYLE  */
-.kt-subheader .kt-subheader__main {
-  direction: ltr;
-}
 
 .kt-subheader .kt-subheader__btn-daterange .kt-subheader__btn-daterange-date,
-.kt-subheader .kt-subheader__main .kt-subheader__title
+.kt-subheader .kt-subheader__main .kt-subheader__title a
 {
   color: #17b978;
 }
@@ -82,6 +79,10 @@ body::-webkit-scrollbar-thumb {
 /* START:: CUSTOMIZE ASIDEMENU STYLE*/
 .kt-aside-menu {
   background-color: #212121;
+}
+
+.kt-aside .ps > .ps__rail-y > .ps__thumb-y {
+  background-color: #666 !important;
 }
 
 .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__heading, 
@@ -183,11 +184,6 @@ body::-webkit-scrollbar-thumb {
   margin: 5px;
 }
 
-/* .dataTables_wrapper .dataTables_filter input::placeholder {
-  color: #17b978;
-  content: "Hi from Css";
-} */
-
 .dataTables_wrapper .dataTables_filter input:focus,
 .dataTables_wrapper .dataTables_length select {
   outline: none;
@@ -270,6 +266,23 @@ input.btn.btn-label-brand.active {
     /* END:: CUSTOMIZE UPLOAD FILES BUTTON STYLE*/
 
 /* END:: CUSTOMIZE HR ADD NEW EMPLOYEE PAGE STYLE */
+
+/* START:: CUSTOMIZE HR ACCOUNTING PAGE STYLE */
+.kt-container .financ-container {
+  min-height: 200px !important;
+  max-height: 200px !important;
+}
+
+.kt-iconbox .kt-iconbox__body {
+  flex-direction: column;
+  text-align: center;
+}
+
+.kt-iconbox .kt-iconbox__body .kt-iconbox__icon {
+  padding: 0;
+  margin-bottom: 5px;
+}
+/* END:: CUSTOMIZE HR ACCOUNTING PAGE STYLE */
 
 /* START:: CUSTOMIZE SCROLLTOP STYLE */
 .kt-scrolltop {

@@ -141,6 +141,10 @@
 												<a href="hrEmployeesArchive.php" class="kt-menu__link kt-menu__toggle"> قائمة ارشيف الموظفين </a>
 											</li>
 
+											<li class="kt-menu__item">
+												<a href="hrAccounting.php" class="kt-menu__link kt-menu__toggle">   حسابات الموظفين </a>
+											</li>
+
 										</ul>
 									</div>
 								</li>
@@ -342,20 +346,21 @@
 					</div>
 					<!-- END:: HEADER -->
 
+					<!-- START:: SUBHEADER -->
 					<div class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" id="kt_content" style="flex: 0 0 auto">
-						<!-- START:: SUBHEADER -->
+						
 						<div class="kt-subheader   kt-grid__item" id="kt_subheader">
 							<div class="kt-container  kt-container--fluid ">
 
 								<div class="kt-subheader__main">
 									<h3 class="kt-subheader__title">
-									Application </h3>
+										<a href="index.php"> الرئيسية </a>
+									</h3>
 									<span class="kt-subheader__separato"></span>
 									<div class="kt-subheader__breadcrumbs">
 										<a href="#" class="kt-subheader__breadcrumbs-home"><i class="flaticon2-shelter"></i></a>
 										<span class="kt-subheader__breadcrumbs-separator"></span>
-										<a href="" class="kt-subheader__breadcrumbs-link">
-											Dashboard </a>
+										<a href="" class="kt-subheader__breadcrumbs-link"> الصفحة الحالية </a>
 									</div>
 
 								</div>
@@ -376,7 +381,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
-						<!-- END:: SUBHEADER -->
+						</div>		
 
 					</div>
+					<!-- END:: SUBHEADER -->
