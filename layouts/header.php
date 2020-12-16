@@ -153,6 +153,27 @@
 									</a>
 								</li>
 
+								<li class="kt-menu__item  aria-haspopup="true">
+									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+										<i class="kt-menu__link-icon la la-cloud" style="font-size: 20px"></i>
+										<span class="kt-menu__link-text">ادارة الإستضافات</span>
+										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
+									</a>
+									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+										<ul class="kt-menu__subnav">
+
+											<li class="kt-menu__item">
+												<a href="hosting.php" class="kt-menu__link kt-menu__toggle"> الإستضافات </a>
+											</li>
+
+											<li class="kt-menu__item">
+												<a href="#" class="kt-menu__link kt-menu__toggle"> الباقات </a>
+											</li>
+
+										</ul>
+									</div>
+								</li>
+
 							</ul>
 						</div>
 					</div>

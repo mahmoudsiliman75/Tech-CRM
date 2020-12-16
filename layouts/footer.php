@@ -102,6 +102,10 @@
 					},
 					language: {
 						searchPlaceholder: "إبحث هنا",
+						'paginate': {
+							'previous': 'السابق',
+							'next': 'التالى'
+						},
 					},
 				});
 
@@ -111,6 +115,10 @@
 					},
 					language: {
 						searchPlaceholder: "إبحث هنا",
+						'paginate': {
+							'previous': 'السابق',
+							'next': 'التالى'
+						},
 					},
 				});
 
@@ -120,7 +128,12 @@
 					},
 					language: {
 						searchPlaceholder: "إبحث هنا",
+						'paginate': {
+							'previous': 'السابق',
+							'next': 'التالى'
+						},
 					},
+
 				});
 
 			});
