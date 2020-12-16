@@ -134,9 +134,9 @@
         <div class="kt-portlet">
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
-              <h3 class="kt-portlet__head-title">  الإستضافات </h3>
+              <h3 class="kt-portlet__head-title">  حسابات الموظفين </h3>
               <div class="btns-box">
-                <a href="addhosting.php" type="button" class="btn btn-outline-success mx-1"> <i class="la la-check"></i>  حضور وانصراف يدوى </a>
+                <a href="manualattend.php" type="button" class="btn btn-outline-success mx-1"> <i class="la la-check"></i>  حضور وانصراف يدوى </a>
                 <a href="addhosting.php" type="button" class="btn btn-outline-success mx-1"> <i class="la la-file-text"></i>  رفع ملف حضور وانصراف  </a>
               </div>
             </div>
