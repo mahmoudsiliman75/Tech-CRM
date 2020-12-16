@@ -167,7 +167,7 @@
 											</li>
 
 											<li class="kt-menu__item">
-												<a href="packages.php" class="kt-menu__link kt-menu__toggle"> الباقات </a>
+												<a href="packages.php" class="kt-menu__link kt-menu__toggle"> باقات الإستضافات </a>
 											</li>
 
 										</ul>

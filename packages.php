@@ -11,8 +11,8 @@
         <div class="kt-portlet">
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
-              <h3 class="kt-portlet__head-title">  الباقات </h3>
-              <a href="#" type="button" class="btn btn-outline-success"> <i class="la la-plus"></i> إضافة باقة </a>
+              <h3 class="kt-portlet__head-title">  باقات الإستضافات </h3>
+              <a href="addPackage.php" type="button" class="btn btn-outline-success"> <i class="la la-plus"></i> إضافة باقة </a>
             </div>
           </div>
         <div>
