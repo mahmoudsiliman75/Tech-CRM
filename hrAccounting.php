@@ -24,9 +24,9 @@
             </div>
 
             <div class="kt-iconbox__desc">
-              <h3 class="kt-iconbox__title">
+              <h4 class="kt-iconbox__title">
                 إجمالى المكافآت
-              </h3>
+              </h4>
               <div class="kt-iconbox__content">
                 <h3> 400 </h3>
               </div>
@@ -54,9 +54,9 @@
             </div>
 
             <div class="kt-iconbox__desc">
-              <h3 class="kt-iconbox__title">
+              <h4 class="kt-iconbox__title">
                 إجمالى العمولات
-              </h3>
+              </h4>
               <div class="kt-iconbox__content">
                 <h3> 200 </h3>
               </div>
@@ -84,9 +84,9 @@
             </div>
 
             <div class="kt-iconbox__desc">
-              <h3 class="kt-iconbox__title">
+              <h4 class="kt-iconbox__title">
                 إجمالى السلف
-              </h3>
+              </h4>
               <div class="kt-iconbox__content">
                 <h3> 100 </h3>
               </div>
@@ -113,9 +113,9 @@
             </div>
 
             <div class="kt-iconbox__desc">
-              <h3 class="kt-iconbox__title">
+              <h4 class="kt-iconbox__title">
                 إجمالى الخصومات
-              </h3>
+              </h4>
               <div class="kt-iconbox__content">
                 <h3> 100 </h3>
               </div>
@@ -137,7 +137,7 @@
               <h3 class="kt-portlet__head-title">  حسابات الموظفين </h3>
               <div class="btns-box">
                 <a href="manualattend.php" type="button" class="btn btn-outline-success mx-1"> <i class="la la-check"></i>  حضور وانصراف يدوى </a>
-                <a href="addhosting.php" type="button" class="btn btn-outline-success mx-1"> <i class="la la-file-text"></i>  رفع ملف حضور وانصراف  </a>
+                <a href="uploadAttendaceFile.php" type="button" class="btn btn-outline-success mx-1"> <i class="la la-file-text"></i>  رفع ملف حضور وانصراف  </a>
               </div>
             </div>
           </div>

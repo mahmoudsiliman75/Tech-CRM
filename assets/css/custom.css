@@ -155,7 +155,7 @@ body::-webkit-scrollbar-thumb {
 
 /* START:: CUSTOMIZE MAIN SECTION STYLE */
 .kt-container .kt-portlet {
-  min-height: 400px;
+  min-height: 390px;
 }
 
 .kt-container .kt-portlet .kt-portlet__head .title-container a {
@@ -281,6 +281,10 @@ input.btn.btn-label-brand.active {
 .kt-iconbox .kt-iconbox__body .kt-iconbox__icon {
   padding: 0;
   margin-bottom: 5px;
+}
+
+.kt-iconbox .kt-iconbox__body .kt-iconbox__desc .kt-iconbox__title {
+  font-size: 1.3rem;
 }
 /* END:: CUSTOMIZE HR ACCOUNTING PAGE STYLE */
 
