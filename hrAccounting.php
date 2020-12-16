@@ -38,7 +38,7 @@
     </div>
 
     <div class="col-12 col-md-3">
-      <div class="financ-container kt-portlet kt-iconbox kt-iconbox--brand kt-iconbox--animate-fast">
+      <div class="financ-container kt-portlet kt-iconbox kt-iconbox--brand kt-iconbox--animate-slow">
         <div class="kt-portlet__body">
           <div class="kt-iconbox__body">
 
@@ -98,7 +98,7 @@
     </div>
 
     <div class="col-12 col-md-3">
-      <div class="financ-container kt-portlet kt-iconbox kt-iconbox--danger kt-iconbox--animate-fast">
+      <div class="financ-container kt-portlet kt-iconbox kt-iconbox--danger kt-iconbox--animate-slow">
         <div class="kt-portlet__body">
           <div class="kt-iconbox__body">
             
