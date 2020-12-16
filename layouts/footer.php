@@ -92,8 +92,12 @@
 		<script>
 			$(document).ready( function () {
 
-				$('#kt_select2_3, #kt_select2_3_validate').select2({
+				$('#permissions_select2_3').select2({
 				placeholder: "اختار الصلاحيات",
+				});
+
+				$('#package_select2_3').select2({
+				placeholder: "اختار الباقة",
 				});
 
 				$('#newUserTable').DataTable({

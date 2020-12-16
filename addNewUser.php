@@ -23,7 +23,7 @@
               <div class="row">
                 <label class="col-form-label col-12">اسم المستخدم </label>
                 <div class="input-group-prepend col-12">
-                  <span class="input-group-text"> <i class="la la-pencil"></i> </span>
+                  <span class="input-group-text"> <i class="la la-pencil" style="font-size: 18px"></i> </span>
                   <input type="text" class="form-control" placeholder="اسم المستخدم ">
                 </div>
               </div>
@@ -33,7 +33,7 @@
               <div class="row">
                 <label class="col-form-label col-12">البريد الإلكترونى </label>
                 <div class="input-group-prepend col-12">
-                  <span class="input-group-text"> <i class="la la-at"></i> </span>
+                  <span class="input-group-text"> <i class="la la-at" style="font-size: 18px"></i> </span>
                   <input type="text" class="form-control" placeholder="البريد الإلكترونى">
                 </div>
               </div>
@@ -43,7 +43,7 @@
               <div class="row">
                 <label class="col-form-label col-12">المسمى الوظيفى </label>
                 <div class="input-group-prepend col-12">
-                  <span class="input-group-text"> <i class="la la-bookmark"></i> </span>
+                  <span class="input-group-text"> <i class="la la-bookmark" style="font-size: 18px"></i> </span>
                   <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
                     <option>اختار المسمى الوظيفى</option>
                     <option value="1">مدير نظام</option>
@@ -61,8 +61,8 @@
               <div class="row">
                 <label class="col-form-label col-12">الصلاحيات  </label>
                 <div class="input-group-prepend col-12">
-                  <span class="input-group-text"> <i class="la la-unlock"></i> </span>
-                  <select class="form-control kt-select2" id="kt_select2_3" name="param" multiple="multiple" placeholder="اختار الصلاحيات">
+                  <span class="input-group-text"> <i class="la la-unlock" style="font-size: 18px"></i> </span>
+                  <select class="form-control kt-select2" id="permissions_select2_3" name="param" multiple="multiple" placeholder="اختار الصلاحيات">
                     <option value="1">صلاحيه 1</option>
                     <option value="2">صلاحيه 2</option>
                     <option value="3">صلاحيه 3</option>

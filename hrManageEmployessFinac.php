@@ -28,7 +28,7 @@
                     <div class="row">
                       <label class="col-form-label col-12">اسم الموظف</label>
                       <div class="input-group-prepend col-12">
-                        <span class="input-group-text"> <i class="la la-pencil"></i> </span>
+                        <span class="input-group-text"> <i class="la la-pencil" style="font-size: 18px"></i> </span>
                         <input type="text" class="form-control" placeholder="الإسم">
                       </div>
                     </div>
@@ -38,7 +38,7 @@
                       <div class="row">
                         <label class="col-form-label col-12">  الشهر</label>
                         <div class="input-group-prepend col-12">
-                          <span class="input-group-text"> <i class="la la-calendar"></i> </span>
+                          <span class="input-group-text"> <i class="la la-calendar" style="font-size: 18px"></i> </span>
                           <input type="text" class="form-control" readonly value="05/20/2017" id="kt_datepicker_3" />
                         </div>
                       </div>
@@ -48,7 +48,7 @@
                     <div class="row">
                       <label class="col-form-label col-12">الإجراء </label>
                       <div class="input-group-prepend col-12">
-                        <span class="input-group-text"> <i class="la la-clipboard"></i> </span>
+                        <span class="input-group-text"> <i class="la la-clipboard" style="font-size: 18px"></i> </span>
                         <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
                           <option> اختار الإجراء </option>
                           <option value="1">اضافة سلفة</option>
@@ -63,7 +63,7 @@
                     <div class="row">
                       <label class="col-form-label col-12"> القيمة</label>
                       <div class="input-group-prepend col-12">
-                        <span class="input-group-text"> <i class="la la-dollar" style='font-weight: bold;'></i> </span>
+                        <span class="input-group-text"> <i class="la la-dollar"  style="font-size: 18px"></i> </span>
                         <input type="text" class="form-control" placeholder=" القيمة">
                       </div>
                     </div>

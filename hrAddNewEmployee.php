@@ -24,7 +24,7 @@
                 <div class="row">
                   <label class="col-form-label col-12">اسم الموظف</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-pencil"></i> </span>
+                    <span class="input-group-text"> <i class="la la-pencil" style="font-size: 18px"></i> </span>
                     <input type="text" class="form-control" placeholder="الإسم">
                   </div>
                 </div>
@@ -34,7 +34,7 @@
                 <div class="row">
                   <label class="col-form-label col-12">المسمى الوظيفي</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-bookmark"></i> </span>
+                    <span class="input-group-text"> <i class="la la-bookmark" style="font-size: 18px"></i> </span>
                     <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
                       <option> اختار المسمى الوظيفي</option>
                       <option value="1">مدير نظام</option>
@@ -52,7 +52,7 @@
                 <div class="row">
                   <label class="col-form-label col-12">البريد الإلكترونى</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-at"></i> </span>
+                    <span class="input-group-text"> <i class="la la-at" style="font-size: 18px"></i> </span>
                     <input type="text" class="form-control" placeholder="البريد الإلكترونى">
                   </div>
                 </div>
@@ -62,7 +62,7 @@
                 <div class="row">
                   <label class="col-form-label col-12"> العنوان</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-map-marker"></i> </span>
+                    <span class="input-group-text"> <i class="la la-map-marker" style="font-size: 18px"></i> </span>
                     <input type="text" class="form-control" placeholder=" العنوان">
                   </div>
                 </div>
@@ -72,7 +72,7 @@
                 <div class="row">
                   <label class="col-form-label col-12"> رقم الهاتف</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-mobile"></i> </span>
+                    <span class="input-group-text"> <i class="la la-mobile" style="font-size: 18px"></i> </span>
                     <input type="text" class="form-control" placeholder=" رقم الهاتف">
                   </div>
                 </div>
@@ -82,7 +82,7 @@
                 <div class="row">
                   <label class="col-form-label col-12"> رقم هاتف اضافي</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-mobile"></i> </span>
+                    <span class="input-group-text"> <i class="la la-mobile" style="font-size: 18px"></i> </span>
                     <input type="text" class="form-control" placeholder=" رقم هاتف اضافي">
                   </div>
                 </div>
@@ -92,7 +92,7 @@
                 <div class="row">
                   <label class="col-form-label col-12"> الراتب</label>
                   <div class="input-group-prepend col-12">
-                    <span class="input-group-text"> <i class="la la-dollar" style="font-weight: bold;"></i> </span>
+                    <span class="input-group-text"> <i class="la la-dollar"  style="font-size: 18px"></i> </span>
                     <input type="text" class="form-control" placeholder=" الراتب">
                   </div>
                 </div>
@@ -103,7 +103,7 @@
                   <div class="row">
                     <label class="col-form-label col-12">تاريخ بداية التوظيف</label>
                     <div class="input-group-prepend col-12">
-                      <span class="input-group-text"> <i class="la la-calendar"></i> </span>
+                      <span class="input-group-text"> <i class="la la-calendar" style="font-size: 18px"></i> </span>
                       <input type="text" class="form-control" readonly value="05/20/2017" id="kt_datepicker_3" />
                     </div>
                   </div>

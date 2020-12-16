@@ -12,13 +12,13 @@
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
               <h3 class="kt-portlet__head-title">  الإستضافات </h3>
-              <a href="addMainService.php" type="button" class="btn btn-outline-success"> <i class="la la-plus"></i> إضافة إستضافة </a>
+              <a href="addhosting.php" type="button" class="btn btn-outline-success"> <i class="la la-plus"></i> إضافة إستضافة </a>
             </div>
           </div>
         <div>
         <!--END::PORTEL-->
 
-        <!--START: MAIN SERVICES DATATABLE-->
+        <!--START: HOSTING DATATABLE-->
         <div class="kt-portlet__body kt-portlet__body--fit">
 
           <table class="table table-responsive-sm" id="mainServices" width="100%">
@@ -60,7 +60,7 @@
           </table>
 
         </div>
-        <!--END: MAIN SERVICES DATATABLE-->
+        <!--END: HOSTING DATATABLE-->
 
       </div>  
     </div>
