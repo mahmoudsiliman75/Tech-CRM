@@ -178,7 +178,7 @@
                     <i class="la la-check"></i>
                   </button>
 
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="السجل المحاسبي">
+                  <a href="showEmployeeAccounting.php" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="السجل المحاسبي">
                     <i class="la la-dollar" style="font-weight: bold"></i>
                   </a>
 
