@@ -133,7 +133,7 @@
             <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
               <h3 class="kt-portlet__head-title"> إضاف إذن غياب او انصراف </h3>
               <div class="btns-box">
-                <a href="#" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-plus"></i> إذن اجازة </a>
+                <a href="hrAddAbsencePermission.php" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-plus"></i> إذن اجازة </a>
               </div>
             </div>
           </div>
