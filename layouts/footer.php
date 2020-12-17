@@ -89,6 +89,10 @@
 		<script src="assets/js/pages/crud/file-upload/dropzonejs.js" type="text/javascript"></script>
 		<!-- END:: UPLOADFILES SCRIPT -->
 
+		<!-- START:: SELECT TIME SCRIPT -->
+		<script src="assets/js/pages/crud/forms/widgets/bootstrap-timepicker.js" type="text/javascript"></script>
+		<!-- END:: SELECT TIME SCRIPT -->
+
 		<script>
 			$(document).ready( function () {
 

@@ -170,7 +170,7 @@
                 <td> 5400 </td>
                 <td align="right">
 
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="سجل الحضور و الإنصراف">
+                  <a href="hrAttendanceRecords.php" class="kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="سجل الحضور و الإنصراف">
                     <i class="la la-clock-o"></i>
                   </a>
 
