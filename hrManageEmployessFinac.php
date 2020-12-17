@@ -10,8 +10,11 @@
         <!--START::PORTEL-->
         <div class="kt-portlet">
           <div class="kt-portlet__head">
-            <div class="kt-portlet__head-label">
-              <h3 class="kt-portlet__head-title"> إعدادات موظفين </h3>
+            <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
+              <h3 class="kt-portlet__head-title">  إعدادات الموظفين </h3>
+              <div class="btns-box">
+                <a href="hrMonthesFinancDetails.php" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-plus"></i> جدول المكافئات والخصومات </a>
+              </div>
             </div>
           </div>
         <div>
@@ -101,19 +104,19 @@
             <tbody>
               <tr>
                 <td>1</td>
-                <td>Land Rover</td>
-                <td>Range Rover</td>
-                <td>Orange</td>
-                <td>Orange</td>
-                <td>Orange</td>
+                <td> محمد عيد </td>
+                <td>ديسمبر </td>
+                <td>100</td>
+                <td>300</td>
+                <td>0</td>
               </tr>
               <tr>
                 <td>2</td>
-                <td>GMC</td>
-                <td>Jimmy</td>
-                <td>Goldenrod</td>
-                <td>Goldenrod</td>
-                <td>Goldenrod</td>
+                <td>عمر إيهاب</td>
+                <td>ديسمبر</td>
+                <td>50</td>
+                <td>200</td>
+                <td>0</td>
               </tr>
             </tbody>
           </table>
