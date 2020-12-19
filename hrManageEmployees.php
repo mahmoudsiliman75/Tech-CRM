@@ -31,41 +31,23 @@
                 <th>رقم الهاتف</th>
                 <th>الراتب</th>
                 <th>تاريخ بداية التوظيف</th>
-                <th class="action">إجراء</th>
+                <th class="action" style="width: 85px !important;">إجراء</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>1</td>
-                <td>Land Rover</td>
-                <td>Range Rover</td>
-                <td>Orange</td>
-                <td>Orange</td>
-                <td>Orange</td>
-                <td>Orange</td>
-                <td>Orange</td>
+                <td> محمد عيد </td>
+                <td> Back-End Dev </td>
+                <td>mohamed@localhost.com</td>
+                <td>عنوان محمد عيد</td>
+                <td>0100000010</td>
+                <td>5000</td>
+                <td>2020 - 10 - 10</td>
                 <td align="right">
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل">
-                    <i class="la la-edit"></i>
+                  <a href="hrSalaryDetails.php" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="مفردات المرتب">
+                    <i class="la la-dollar font-weight-bold"></i>
                   </a>
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--warning" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="اضافة الى الارشيف">
-                    <i class="la la-hdd-o"></i>
-                  </a>
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="حذف">
-                    <i class="la la-trash"></i>
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>GMC</td>
-                <td>Jimmy</td>
-                <td>Goldenrod</td>
-                <td>Goldenrod</td>
-                <td>Goldenrod</td>
-                <td>Goldenrod</td>
-                <td>Goldenrod</td>
-                <td align="right">
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل">
                     <i class="la la-edit"></i>
                   </a>
