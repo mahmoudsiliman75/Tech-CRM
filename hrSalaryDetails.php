@@ -132,7 +132,7 @@
         <div class="kt-portlet">
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
-              <h3 class="kt-portlet__head-title">   تفاصيل مرتب <span class="kt-font-success"> (محمد عيد) </span> </h3>
+              <h3 class="kt-portlet__head-title">   تفاصيل مرتب <span class="kt-font-success mx-1 font-weight-bold"> (محمد عيد) </span> </h3>
             </div>
           </div>
         <div>
