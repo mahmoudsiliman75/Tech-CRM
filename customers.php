@@ -11,7 +11,7 @@
         <div class="kt-portlet">
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label">
-              <h3 class="kt-portlet__head-title"> قائمة الموظفين </h3>
+              <h3 class="kt-portlet__head-title"> العملاء الحاليين </h3>
             </div>
           </div>
         <div>
@@ -25,29 +25,20 @@
               <tr>
                 <th>#</th>
                 <th> الاسم </th>
-                <th>المسمي الوظيفي</th>
-                <th>البريد الإلكتروني</th>
-                <th>العنوان</th>
+                <th> المشروع </th>
                 <th>رقم الهاتف</th>
-                <th>الراتب</th>
-                <th>تاريخ بداية التوظيف</th>
-                <th class="action" style="width: 85px !important;">إجراء</th>
+                <th>تاريخ التعاقد</th>
+                <th class="action">إجراء</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>1</td>
-                <td> محمد عيد </td>
-                <td> Back-End Dev </td>
-                <td>mohamed@localhost.com</td>
-                <td>عنوان محمد عيد</td>
-                <td>0100000010</td>
-                <td>5000</td>
+                <td> TechnoMasr </td>
+                <td> CRM </td>
+                <td> 01000000010 </td>
                 <td>2020 - 10 - 10</td>
                 <td align="right">
-                  <a href="hrSalaryDetails.php" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="مفردات المرتب">
-                    <i class="la la-dollar font-weight-bold"></i>
-                  </a>
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل">
                     <i class="la la-edit"></i>
                   </a>
