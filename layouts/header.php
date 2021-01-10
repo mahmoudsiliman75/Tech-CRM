@@ -207,6 +207,10 @@
 
                       <li class="kt-menu__item">
 												<a href="add-follow-up.php" class="kt-menu__link kt-menu__toggle"> إضافة متابعة عميل  </a>
+                      </li>
+
+                      <li class="kt-menu__item">
+												<a href="follow-up-list.php" class="kt-menu__link kt-menu__toggle"> قائمة متابعات العملاء  </a>
 											</li>
 
 										</ul>
