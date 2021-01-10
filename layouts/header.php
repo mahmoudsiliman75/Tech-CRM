@@ -199,6 +199,10 @@
 
                       <li class="kt-menu__item">
 												<a href="leads-list.php" class="kt-menu__link kt-menu__toggle"> قائمة العملاء المحتملين  </a>
+                      </li>
+
+                      <li class="kt-menu__item">
+												<a href="leads-archive.php" class="kt-menu__link kt-menu__toggle"> قائمة ارشيف العملاء المحتملين  </a>
 											</li>
 
 										</ul>

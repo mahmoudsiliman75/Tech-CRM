@@ -223,7 +223,6 @@
         // END:: DATATABLES OPTIONS
 
         //  START:: SWEET ALERT
-
         $('.confirm').click(function(e) {
             swal.fire({
               title: 'تأكيد التعاقد',
@@ -279,6 +278,28 @@
           if (result.value) {
             swal.fire(
               'تمت الأرشفة',
+              '',
+              'success'
+            )
+            }
+          });
+        });
+
+        $('.restore').click(function(e) {
+          swal.fire({
+            title: "تأكيد إستعادة العميل ",
+            text: "",
+            type: "question",
+            buttonsStyling: false,
+            confirmButtonText: "إستعادة",
+            confirmButtonClass: "btn btn-success",
+            showCancelButton: true,
+            cancelButtonText: "إلغاء",
+            cancelButtonClass: "btn btn-default"
+          }).then(function(result) {
+          if (result.value) {
+            swal.fire(
+              'تمت الإستعادة',
               '',
               'success'
             )
