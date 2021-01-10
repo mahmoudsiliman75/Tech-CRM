@@ -11,6 +11,10 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: #17b978;
 }
+
+.ck.ck-editor {
+  width: 100% !important;
+}
 /* END:: GLOBAL STYLES */
 
 

@@ -203,6 +203,10 @@
 
                       <li class="kt-menu__item">
 												<a href="leads-archive.php" class="kt-menu__link kt-menu__toggle"> قائمة ارشيف العملاء المحتملين  </a>
+                      </li>
+
+                      <li class="kt-menu__item">
+												<a href="add-follow-up.php" class="kt-menu__link kt-menu__toggle"> إضافة متابعة عميل  </a>
 											</li>
 
 										</ul>

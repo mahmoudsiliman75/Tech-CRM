@@ -46,18 +46,22 @@
 				}
 			};
 		</script>
-		<!-- end::Global Config -->
+    <!-- end::Global Config -->
 
 		<!--begin::Global Theme Bundle(used by all pages) -->
 		<script src="assets/plugins/global/plugins.bundle.js" type="text/javascript"></script>
 		<script src="assets/js/scripts.bundle.js" type="text/javascript"></script>
-		<!--end::Global Theme Bundle -->
+    <!--end::Global Theme Bundle -->
 
 		<!--begin::Page Vendors(used by this page) -->
 		<script src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js" type="text/javascript"></script>
 		<script src="//maps.google.com/maps/api/js?key=AIzaSyBTGnKT7dt597vo9QgeQ7BFhvSRP4eiMSM" type="text/javascript"></script>
 		<script src="assets/plugins/custom/gmaps/gmaps.js" type="text/javascript"></script>
-		<!--end::Page Vendors -->
+    <!--end::Page Vendors -->
+
+    <!-- START:: TEXT EDITOR SCRIPTS -->
+    <script src="assets/plugins/custom/ckeditor/ckeditor-classic.bundle.js" type="text/javascript"></script>
+    <!-- END:: TEXT EDITOR SCRIPTS -->
 
 		<!--START::SELECT2 SCRIPT -->
 		<script src="assets/js/pages/crud/forms/widgets/select2.js" type="text/javascript"></script>
@@ -95,220 +99,9 @@
 
 		<!-- START:: SELECT TIME SCRIPT -->
 		<script src="assets/js/pages/crud/forms/widgets/bootstrap-timepicker.js" type="text/javascript"></script>
-		<!-- END:: SELECT TIME SCRIPT -->
+    <!-- END:: SELECT TIME SCRIPT -->
 
-		<script>
-			$(document).ready( function () {
-
-        // START:: SELECT2 OPTIONS
-				$('#permissions_select2_3').select2({
-				placeholder: "اختار الصلاحيات",
-				});
-
-        $('#services_select2_3').select2({
-				placeholder: "اختار الخدمات",
-				});
-
-				$('#package_select2_3').select2({
-				placeholder: "اختار الباقة",
-				});
-        // START:: SELECT2 OPTIONS
-
-        // START:: DATATABLES OPTIONS
-				$('#newUserTable').DataTable({
-					"oLanguage": {
-						"sSearch": "",
-					},
-					language: {
-						searchPlaceholder: "إبحث هنا",
-						'paginate': {
-							'previous': 'السابق',
-							'next': 'التالى'
-						},
-						"lengthMenu": "عرض _MENU_ فى الصفحة",
-						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
-					},
-				});
-
-				$('#usersArchive').DataTable({
-					"oLanguage": {
-						"sSearch": "",
-					},
-					language: {
-						searchPlaceholder: "إبحث هنا",
-						'paginate': {
-							'previous': 'السابق',
-							'next': 'التالى'
-						},
-						"lengthMenu": "عرض _MENU_ فى الصفحة",
-						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
-					},
-				});
-
-				$('#mainServices').DataTable({
-					"oLanguage": {
-						"sSearch": "",
-					},
-					language: {
-						searchPlaceholder: "إبحث هنا",
-						'paginate': {
-							'previous': 'السابق',
-							'next': 'التالى'
-						},
-						"lengthMenu": "عرض _MENU_ فى الصفحة",
-						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
-					},
-				});
-
-				$('#packages').DataTable({
-					"oLanguage": {
-						"sSearch": "",
-					},
-					language: {
-						searchPlaceholder: "إبحث هنا",
-						'paginate': {
-							'previous': 'السابق',
-							'next': 'التالى'
-						},
-						"lengthMenu": "عرض _MENU_ فى الصفحة",
-						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
-					},
-
-				});
-
-				$('#contracts').DataTable({
-					"oLanguage": {
-						"sSearch": "",
-					},
-					language: {
-						searchPlaceholder: "إبحث هنا",
-						'paginate': {
-							'previous': 'السابق',
-							'next': 'التالى'
-						},
-						"lengthMenu": "عرض _MENU_ فى الصفحة",
-						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
-					},
-				});
-
-				$('#hrAccounting').DataTable({
-					"oLanguage": {
-						"sSearch": "",
-					},
-					language: {
-						searchPlaceholder: "إبحث هنا",
-						'paginate': {
-							'previous': 'السابق',
-							'next': 'التالى'
-						},
-						"lengthMenu": "عرض _MENU_ فى الصفحة",
-						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
-					},
-				});
-
-				$('#attendance').DataTable({
-					"oLanguage": {
-						"sSearch": "",
-					},
-					language: {
-						searchPlaceholder: "إبحث هنا",
-						'paginate': {
-							'previous': 'السابق',
-							'next': 'التالى'
-						},
-						"lengthMenu": "عرض _MENU_ فى الصفحة",
-						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
-					},
-				});
-        // END:: DATATABLES OPTIONS
-
-        //  START:: SWEET ALERT
-        $('.confirm').click(function(e) {
-            swal.fire({
-              title: 'تأكيد التعاقد',
-              type: 'question',
-              showCancelButton: true,
-              cancelButtonText: 'إلغاء',
-              confirmButtonText: 'تأكيد'
-            }).then(function(result) {
-              if (result.value) {
-                swal.fire(
-                  'تم التأكيد',
-                  '',
-                  'success'
-                )
-              }
-            });
-        });
-
-        $('.delete').click(function(e) {
-          swal.fire({
-            title: "تأكيد حذف العميل المحتمل",
-            text: "",
-            type: "error",
-            buttonsStyling: false,
-            confirmButtonText: "حذف",
-            confirmButtonClass: "btn btn-danger",
-            showCancelButton: true,
-            cancelButtonText: "إلغاء",
-            cancelButtonClass: "btn btn-default"
-          }).then(function(result) {
-          if (result.value) {
-            swal.fire(
-              'تم الحذف',
-              '',
-              'success'
-            )
-            }
-          });
-        });
-
-        $('.archive').click(function(e) {
-          swal.fire({
-            title: "تأكيد أرشفة العميل المحتمل",
-            text: "",
-            type: "warning",
-            buttonsStyling: false,
-            confirmButtonText: "أرشفة",
-            confirmButtonClass: "btn btn-danger",
-            showCancelButton: true,
-            cancelButtonText: "إلغاء",
-            cancelButtonClass: "btn btn-default"
-          }).then(function(result) {
-          if (result.value) {
-            swal.fire(
-              'تمت الأرشفة',
-              '',
-              'success'
-            )
-            }
-          });
-        });
-
-        $('.restore').click(function(e) {
-          swal.fire({
-            title: "تأكيد إستعادة العميل ",
-            text: "",
-            type: "question",
-            buttonsStyling: false,
-            confirmButtonText: "إستعادة",
-            confirmButtonClass: "btn btn-success",
-            showCancelButton: true,
-            cancelButtonText: "إلغاء",
-            cancelButtonClass: "btn btn-default"
-          }).then(function(result) {
-          if (result.value) {
-            swal.fire(
-              'تمت الإستعادة',
-              '',
-              'success'
-            )
-            }
-          });
-        });
-
-			});
-		</script>
+		<script src="assets/js/custom.js"></script>
 	</body>
 
 	<!-- end::Body -->
