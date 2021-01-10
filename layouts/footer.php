@@ -87,7 +87,11 @@
 		<script src="assets/plugins/custom/uppy/uppy.bundle.js" type="text/javascript"></script>
 		<script src="assets/js/pages/crud/file-upload/uppy.js" type="text/javascript"></script>
 		<script src="assets/js/pages/crud/file-upload/dropzonejs.js" type="text/javascript"></script>
-		<!-- END:: UPLOADFILES SCRIPT -->
+    <!-- END:: UPLOADFILES SCRIPT -->
+
+    <!-- START:: SWEET ALERT -->
+    <script src="assets/js/pages/components/extended/sweetalert2.js" type="text/javascript"></script>
+    <!-- END:: SWEET ALERT -->
 
 		<!-- START:: SELECT TIME SCRIPT -->
 		<script src="assets/js/pages/crud/forms/widgets/bootstrap-timepicker.js" type="text/javascript"></script>
@@ -96,14 +100,21 @@
 		<script>
 			$(document).ready( function () {
 
+        // START:: SELECT2 OPTIONS
 				$('#permissions_select2_3').select2({
 				placeholder: "اختار الصلاحيات",
+				});
+
+        $('#services_select2_3').select2({
+				placeholder: "اختار الخدمات",
 				});
 
 				$('#package_select2_3').select2({
 				placeholder: "اختار الباقة",
 				});
+        // START:: SELECT2 OPTIONS
 
+        // START:: DATATABLES OPTIONS
 				$('#newUserTable').DataTable({
 					"oLanguage": {
 						"sSearch": "",
@@ -209,6 +220,71 @@
 						"info": "عرض  _PAGE_ من _PAGES_ صفحات",
 					},
 				});
+        // END:: DATATABLES OPTIONS
+
+        //  START:: SWEET ALERT
+
+        $('.confirm').click(function(e) {
+            swal.fire({
+              title: 'تأكيد التعاقد',
+              type: 'question',
+              showCancelButton: true,
+              cancelButtonText: 'إلغاء',
+              confirmButtonText: 'تأكيد'
+            }).then(function(result) {
+              if (result.value) {
+                swal.fire(
+                  'تم التأكيد',
+                  '',
+                  'success'
+                )
+              }
+            });
+        });
+
+        $('.delete').click(function(e) {
+          swal.fire({
+            title: "تأكيد حذف العميل المحتمل",
+            text: "",
+            type: "error",
+            buttonsStyling: false,
+            confirmButtonText: "حذف",
+            confirmButtonClass: "btn btn-danger",
+            showCancelButton: true,
+            cancelButtonText: "إلغاء",
+            cancelButtonClass: "btn btn-default"
+          }).then(function(result) {
+          if (result.value) {
+            swal.fire(
+              'تم الحذف',
+              '',
+              'success'
+            )
+            }
+          });
+        });
+
+        $('.archive').click(function(e) {
+          swal.fire({
+            title: "تأكيد أرشفة العميل المحتمل",
+            text: "",
+            type: "warning",
+            buttonsStyling: false,
+            confirmButtonText: "أرشفة",
+            confirmButtonClass: "btn btn-danger",
+            showCancelButton: true,
+            cancelButtonText: "إلغاء",
+            cancelButtonClass: "btn btn-default"
+          }).then(function(result) {
+          if (result.value) {
+            swal.fire(
+              'تمت الأرشفة',
+              '',
+              'success'
+            )
+            }
+          });
+        });
 
 			});
 		</script>
