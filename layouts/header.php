@@ -195,6 +195,10 @@
 
 											<li class="kt-menu__item">
 												<a href="add-leads.php" class="kt-menu__link kt-menu__toggle"> إضافة عميل محتمل  </a>
+                      </li>
+
+                      <li class="kt-menu__item">
+												<a href="leads-list.php" class="kt-menu__link kt-menu__toggle"> قائمة العملاء المحتملين  </a>
 											</li>
 
 										</ul>
