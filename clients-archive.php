@@ -13,7 +13,7 @@
         <div class="kt-portlet">
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label">
-              <h3 class="kt-portlet__head-title"> قائمة العملاء </h3>
+              <h3 class="kt-portlet__head-title"> قائمة ارشيف العملاء المحتملين </h3>
             </div>
           </div>
         <div>
@@ -39,30 +39,18 @@
                 <td> محمود سليمان </td>
                 <td> 01000000010 </td>
                 <td>mahmoudsiliman@localhost.com</td>
-                <td>U Care</td>
+                <td> U Care </td>
                 <td align="right">
                   <div class="row">
 
-                    <div class="col-6 p-0 text-right">
-                      <a href="#" class="confirm kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إضافة تعاقد جديد">
-                        <i class="la la-plus"></i>
+                    <div class="col-6 p-0">
+                      <a href="#" class="restore kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إسترجاع">
+                        <i class="la la-rotate-left"></i>
                       </a>
                     </div>
 
                     <div class="col-6 p-0">
-                      <a href="#" class="col-6 kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل">
-                        <i class="la la-edit"></i>
-                      </a>
-                    </div>
-
-                    <div class="col-6 p-0 text-right">
-                      <a href="#" class="archive col-6 kt-badge kt-badge--outline kt-badge--warning" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="اضافة الى الارشيف">
-                        <i class="la la-hdd-o"></i>
-                      </a>
-                    </div>
-
-                    <div class="col-6 p-0">
-                      <button class="delete col-6 kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="حذف">
+                      <button class="delete kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="حذف">
                         <i class="la la-trash"></i>
                       </button>
                     </div>

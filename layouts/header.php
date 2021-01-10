@@ -215,6 +215,10 @@
                       
                       <li class="kt-menu__item">
 												<a href="clients-list.php" class="kt-menu__link kt-menu__toggle"> قائمة  العملاء  </a>
+                      </li>
+
+                      <li class="kt-menu__item">
+												<a href="clients-archive.php" class="kt-menu__link kt-menu__toggle"> قائمة ارشيف العملاء  </a>
 											</li>
 
 										</ul>
