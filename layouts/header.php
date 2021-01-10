@@ -206,11 +206,15 @@
                       </li>
 
                       <li class="kt-menu__item">
-												<a href="add-follow-up.php" class="kt-menu__link kt-menu__toggle"> إضافة متابعة عميل  </a>
+												<a href="add-follow-up.php" class="kt-menu__link kt-menu__toggle"> إضافة متابعة عميل محتمل </a>
                       </li>
 
                       <li class="kt-menu__item">
-												<a href="follow-up-list.php" class="kt-menu__link kt-menu__toggle"> قائمة متابعات العملاء  </a>
+												<a href="follow-up-list.php" class="kt-menu__link kt-menu__toggle"> قائمة متابعات العملاء المحتملين </a>
+                      </li>
+                      
+                      <li class="kt-menu__item">
+												<a href="clients-list.php" class="kt-menu__link kt-menu__toggle"> قائمة  العملاء  </a>
 											</li>
 
 										</ul>
