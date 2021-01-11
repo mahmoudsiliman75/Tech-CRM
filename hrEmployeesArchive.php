@@ -45,11 +45,11 @@
               <td>Orange</td>
               <td>Orange</td>
               <td align="right">
-                <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إسترجاع">
+                <a href="#" class="restore kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إسترجاع">
                   <i class="la la-rotate-left"></i>
                 </a>
 
-                <a href="#" class="kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
+                <a href="#" class="delete kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
                   <i class="la la-trash"></i>
                 </a>
               </td>
@@ -64,11 +64,11 @@
               <td>Goldenrod</td>
               <td>Goldenrod</td>
               <td align="right">
-                <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إسترجاع">
+                <a href="#" class="restore kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إسترجاع">
                   <i class="la la-rotate-left"></i>
                 </a>
 
-                <a href="#" class="kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
+                <a href="#" class="delete kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
                   <i class="la la-trash"></i>
                 </a>
               </td>

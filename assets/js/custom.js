@@ -158,7 +158,7 @@ $(document).ready( function () {
 
   $('.delete').click(function(e) {
     swal.fire({
-      title: "تأكيد حذف العميل المحتمل",
+      title: "تأكيد الحذف  ",
       text: "",
       type: "error",
       buttonsStyling: false,
@@ -180,7 +180,7 @@ $(document).ready( function () {
 
   $('.archive').click(function(e) {
     swal.fire({
-      title: "تأكيد أرشفة العميل المحتمل",
+      title: "تأكيد الأرشفة  ",
       text: "",
       type: "warning",
       buttonsStyling: false,
@@ -202,7 +202,7 @@ $(document).ready( function () {
 
   $('.restore').click(function(e) {
     swal.fire({
-      title: "تأكيد إستعادة العميل ",
+      title: "تأكيد الإستعادة  ",
       text: "",
       type: "question",
       buttonsStyling: false,

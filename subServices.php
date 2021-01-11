@@ -45,7 +45,7 @@
                     <i class="la la-file-text"></i>
                   </a>
 
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
+                  <a href="#" class="delete kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
                     <i class="la la-trash"></i>
                   </a>
 

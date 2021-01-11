@@ -43,10 +43,10 @@
                 <td align="right">
                   <div class="row">
 
-                    <div class="col-6 p-0">
-                      <a href="#" class="restore kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إسترجاع">
+                    <div class="col-6 text-right p-0">
+                      <button class="restore kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إسترجاع">
                         <i class="la la-rotate-left"></i>
-                      </a>
+                      </button>
                     </div>
 
                     <div class="col-6 p-0">
