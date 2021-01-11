@@ -120,6 +120,21 @@ $(document).ready( function () {
       "info": "عرض  _PAGE_ من _PAGES_ صفحات",
     },
   });
+
+  $('.standard').DataTable({
+    "oLanguage": {
+      "sSearch": "",
+    },
+    language: {
+      searchPlaceholder: "إبحث هنا",
+      'paginate': {
+        'previous': 'السابق',
+        'next': 'التالى'
+      },
+      "lengthMenu": "عرض _MENU_ فى الصفحة",
+      "info": "عرض  _PAGE_ من _PAGES_ صفحات",
+    },
+  });
   // END:: DATATABLES OPTIONS
 
   //  START:: SWEET ALERT

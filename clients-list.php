@@ -41,7 +41,12 @@
                 </td>
                 <td> 01000000010 </td>
                 <td>mahmoudsiliman@localhost.com</td>
-                <td>U Care</td>
+                <td>
+                  <ul>
+                    <li>U Care</li>
+                    <li>CRM</li>
+                  </ul>
+                </td>
                 <td align="right">
                   <div class="row">
 
