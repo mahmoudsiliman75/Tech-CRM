@@ -51,7 +51,7 @@
                   <div class="row">
 
                     <div class="col-6 p-0 text-right">
-                      <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إضافة تعاقد جديد">
+                      <a href="new-deal.php" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إضافة تعاقد جديد">
                         <i class="la la-plus"></i>
                       </a>
                     </div>

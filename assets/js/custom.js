@@ -12,6 +12,10 @@ $(document).ready( function () {
   $('#package_select2_3').select2({
   placeholder: "اختار الباقة",
   });
+
+  $('#client-services').select2({
+  placeholder: "اختار الخدمات",
+  });
   // START:: SELECT2 OPTIONS
 
   // START:: DATATABLES OPTIONS
