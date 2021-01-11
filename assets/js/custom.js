@@ -207,6 +207,30 @@ $(document).ready( function () {
     });
   });
 
+  $('.collect-mone').click(function(e) {
+    swal.fire({
+      title: "تم التحصيل ",
+      text: "",
+      type: "success",
+      buttonsStyling: false,
+      confirmButtonText: "تم",
+      confirmButtonClass: "btn btn-success",
+      showCancelButton: false,
+    })
+  });
+
+    $('.cancel-collect-mone').click(function(e) {
+    swal.fire({
+      title: "تم إلغاء العملية ",
+      text: "",
+      type: "error",
+      buttonsStyling: false,
+      confirmButtonText: "تم",
+      confirmButtonClass: "btn btn-danger",
+      showCancelButton: false,
+    })
+  });
+
   ClassicEditor
   .create( document.querySelector( '#kt-ckeditor-1' ) )
   .then( editor => {

@@ -57,7 +57,6 @@
     <div class="kt-grid__item kt-grid__item--fluid kt-app__content col-8">
       <div class="row">
         <div class="col">
-
           <!--START:: FINANC SECTION-->
           <div class="kt-portlet">
             <div class="kt-portlet__body kt-portlet__body--fit">
@@ -110,14 +109,11 @@
           </div>
           <!--END:: FINANC SECTION-->
         </div>
-
       </div>
-
     </div>
 
 	</div>
 	<!-- END:: CONTENT -->
-
 <!-- START:: INCLUDING FOOTER -->
 <?php include('layouts/footer.php') ?>
 <!-- END:: INCLUDING FOOTER -->

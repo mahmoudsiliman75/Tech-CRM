@@ -36,7 +36,9 @@
             <tbody>
               <tr>
                 <td>1</td>
-                <td> محمود سليمان </td>
+                <td> 
+                  <a href="client-profile.php" class="kt-link kt-link--state kt-link--success"> محمود سليمان </a> 
+                </td>
                 <td> 01000000010 </td>
                 <td>mahmoudsiliman@localhost.com</td>
                 <td>U Care</td>
@@ -44,7 +46,7 @@
                   <div class="row">
 
                     <div class="col-6 p-0 text-right">
-                      <a href="#" class="confirm kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إضافة تعاقد جديد">
+                      <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="إضافة تعاقد جديد">
                         <i class="la la-plus"></i>
                       </a>
                     </div>
