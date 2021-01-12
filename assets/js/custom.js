@@ -272,4 +272,10 @@ $(document).ready( function () {
   $('#total-cost').on('input', calcTheRemaining);
   $('#down-payment').on('input', calcTheRemaining)
   // END:: CALC THE REMAINING OF NEW DEAL
+
+
+
+  
+
+
 });
