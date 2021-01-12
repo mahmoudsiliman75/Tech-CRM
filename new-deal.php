@@ -47,8 +47,13 @@
               <div class="row">
                 <label class="col-form-label col-12">مسؤل المبيعات </label>
                 <div class="input-group-prepend col-12">
-                  <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
-                  <input type="text" class="form-control" placeholder="مسؤل المبيعات ">
+                <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
+                  <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
+                    <option>اختار مسؤل المبيعات</option>
+                    <option value="1">كريم حسام</option>
+                    <option value="2">محمد عيد</option>
+                    <option value="3"> عمر ايهاب </option>
+                  </select>
                 </div>
               </div>
             </div>
@@ -77,8 +82,13 @@
               <div class="row">
                 <label class="col-form-label col-12">مدير المشروع </label>
                 <div class="input-group-prepend col-12">
-                  <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
-                  <input type="text" class="form-control" placeholder="مدير المشروع ">
+                <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
+                  <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
+                    <option>اختار مدير المشروع</option>
+                    <option value="1">كريم حسام</option>
+                    <option value="2">محمد عيد</option>
+                    <option value="3"> عمر ايهاب </option>
+                  </select>
                 </div>
               </div>
             </div>
