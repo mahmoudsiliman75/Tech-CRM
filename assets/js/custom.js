@@ -249,7 +249,9 @@ $(document).ready( function () {
       showCancelButton: false,
     })
   });
+  // END:: SWEET ALERT
 
+  // START:: TEXT EDITOR
   ClassicEditor
   .create( document.querySelector( '#kt-ckeditor-1' ) )
   .then( editor => {
@@ -258,4 +260,16 @@ $(document).ready( function () {
   .catch( error => {
     console.error( error );
   } );
+  // END:: TEXT EDITOR
+
+  // START:: CALC THE REMAINING OF NEW DEAL
+  let calcTheRemaining = () => {
+    let totalCost = parseInt( $('#total-cost').val() );
+    let downPayment = parseInt( $('#down-payment').val() );
+    $('#the-remaining').val( totalCost - downPayment );
+  };
+
+  $('#total-cost').on('input', calcTheRemaining);
+  $('#down-payment').on('input', calcTheRemaining)
+  // END:: CALC THE REMAINING OF NEW DEAL
 });

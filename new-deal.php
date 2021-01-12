@@ -68,7 +68,7 @@
                 <label class="col-form-label col-12">تكلفة المشروع </label>
                 <div class="input-group-prepend col-12">
                   <span class="input-group-text"> <i class="la la-dollar" style="font-size: 18px"></i> </span>
-                  <input type="text" class="form-control" placeholder="تكلفة المشروع">
+                  <input id="total-cost" type="text" class="form-control" value="0" placeholder="تكلفة المشروع">
                 </div>
               </div>
             </div>
@@ -78,18 +78,17 @@
                 <label class="col-form-label col-12"> المقدم </label>
                 <div class="input-group-prepend col-12">
                   <span class="input-group-text"> <i class="la la-dollar" style="font-size: 18px"></i> </span>
-                  <input type="text" class="form-control" placeholder=" المقدم">
+                  <input id="down-payment" type="text" class="form-control" value="0" placeholder=" المقدم">
                 </div>
               </div>
             </div>
 
-            <!-- TODO: add js code to calc the remaining -->
             <div class="form-group col-12 col-md-4">
               <div class="row">
                 <label class="col-form-label col-12"> الباقى </label>
                 <div class="input-group-prepend col-12">
                   <span class="input-group-text"> <i class="la la-dollar" style="font-size: 18px"></i> </span>
-                  <input type="text" class="form-control" placeholder=" الباقى" disabled>
+                  <input id="the-remaining" type="text" class="form-control" placeholder=" الباقى" disabled>
                 </div>
               </div>
             </div>
