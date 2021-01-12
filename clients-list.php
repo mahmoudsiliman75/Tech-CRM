@@ -30,6 +30,7 @@
                 <th>رقم الهاتف</th>
                 <th>البريد الإلكترونى</th>
                 <th> اسم المشروع </th>
+                <th> تاريخ التعاقد </th>
                 <th class="action text-center">إجراء</th>
               </tr>
             </thead>
@@ -42,9 +43,15 @@
                 <td> 01000000010 </td>
                 <td>mahmoudsiliman@localhost.com</td>
                 <td>
-                  <ul>
+                  <ul class="m-0">
                     <li>U Care</li>
                     <li>CRM</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="m-0">
+                    <li>2021 - 1 - 5</li>
+                    <li>2021 - 1 - 12</li>
                   </ul>
                 </td>
                 <td align="right">

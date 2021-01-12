@@ -142,6 +142,16 @@ $(document).ready( function () {
   // END:: DATATABLES OPTIONS
 
   //  START:: SWEET ALERT
+
+  $('.done').click(function(e) {
+    swal.fire({
+      title: 'تم التاكيد ',
+      type: 'success',
+      showCancelButton: false,
+      confirmButtonText: 'تم'
+    })
+  });
+
   $('.confirm').click(function(e) {
       swal.fire({
         title: 'تأكيد التعاقد',
@@ -272,10 +282,4 @@ $(document).ready( function () {
   $('#total-cost').on('input', calcTheRemaining);
   $('#down-payment').on('input', calcTheRemaining)
   // END:: CALC THE REMAINING OF NEW DEAL
-
-
-
-  
-
-
 });

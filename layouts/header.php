@@ -214,7 +214,7 @@
                       </li>
 
                       <li class="kt-menu__item">
-												<a href="new-deal.php" class="kt-menu__link kt-menu__toggle">  إضافة تعاقد  </a>
+												<a href="new-deal.php" class="kt-menu__link kt-menu__toggle">   إضافة تعاقد جديد </a>
                       </li>
 
                       <li class="kt-menu__item">
@@ -223,6 +223,10 @@
 
                       <li class="kt-menu__item">
 												<a href="clients-archive.php" class="kt-menu__link kt-menu__toggle"> قائمة ارشيف العملاء  </a>
+											</li>
+
+                      <li class="kt-menu__item">
+												<a href="project-managers-list.php" class="kt-menu__link kt-menu__toggle"> قائمة توزيع المشاريع  </a>
 											</li>
 
 										</ul>

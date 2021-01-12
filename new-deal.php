@@ -63,6 +63,26 @@
               </div>
             </div>
 
+            <div class="form-group col-12 col-md-6">
+              <div class="row">
+                <label class="col-form-label col-12">تاريخ التعاقد </label>
+                <div class="input-group-prepend col-12">
+                  <span class="input-group-text"> <i class="la la-calendar" style="font-size: 18px"></i> </span>
+                  <input type="text" class="form-control" readonly="" value="05/20/2017" id="kt_datepicker_3">
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group col-12 col-md-6">
+              <div class="row">
+                <label class="col-form-label col-12">مدير المشروع </label>
+                <div class="input-group-prepend col-12">
+                  <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
+                  <input type="text" class="form-control" placeholder="مدير المشروع ">
+                </div>
+              </div>
+            </div>
+
             <div class="form-group col-12 col-md-4">
               <div class="row">
                 <label class="col-form-label col-12">تكلفة المشروع </label>
