@@ -15,6 +15,24 @@ body::-webkit-scrollbar-thumb {
 .ck.ck-editor {
   width: 100% !important;
 }
+
+.kt-portlet .kt-portlet__head .kt-portlet__head-label .btns-box a,
+.kt-portlet .kt-portlet__head .kt-portlet__head-label .btns-box button {
+  border-color: #17b978 !important;
+  color: #17b978 !important;
+  transition: all 0.3s ease-in-out;
+} 
+
+.kt-portlet .kt-portlet__head .kt-portlet__head-label .btns-box a:hover,
+.kt-portlet .kt-portlet__head .kt-portlet__head-label .btns-box button:hover {
+  background-color: #17b978 !important;
+  color: #fff !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-group-prepend .select2-container {
+  width: 100% !important;
+}
 /* END:: GLOBAL STYLES */
 
 /* START:: MOBILE CUSTOMIZE MENU STYLES */
@@ -229,13 +247,16 @@ body::-webkit-scrollbar-thumb {
   min-height: 390px;
 }
 
-.kt-container .kt-portlet .kt-portlet__head .title-container a {
+.kt-container .kt-portlet .kt-portlet__head .title-container a,
+.kt-container .kt-portlet .kt-portlet__head .title-container button {
   border-color: #17b978 !important;
   color: #17b978 !important;
   transition: all 0.3s ease-in-out;
 }
 
-.kt-container .kt-portlet .kt-portlet__head .title-container a:hover {
+.kt-container .kt-portlet .kt-portlet__head .title-container a:hover,
+.kt-container .kt-portlet .kt-portlet__head .title-container button:hover 
+{
   background-color: #17b978 !important;
   color: #fff !important;
   transition: all 0.3s ease-in-out;

@@ -16,6 +16,14 @@ $(document).ready( function () {
   $('#client-services').select2({
   placeholder: "اختار الخدمات",
   });
+
+  $('#years').select2({
+    placeholder: "سنوات",
+    });
+
+  $('#monthes').select2({
+    placeholder: "شهور",
+  });
   // START:: SELECT2 OPTIONS
 
   // START:: DATATABLES OPTIONS
