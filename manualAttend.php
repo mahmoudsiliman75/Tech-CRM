@@ -88,7 +88,7 @@
                         <label class="col-form-label col-12"> ساعة الحضور </label>
                         <div class="input-group-prepend col-12">
                           <span class="input-group-text"> <i class="la la-clock-o" style="font-size: 18px"></i> </span>
-                          <input type="text" class="form-control">
+                          <input class="form-control" id="kt_timepicker_2" readonly="" placeholder=" اختار وقت " type="text">
                         </div>
                       </div>
                     </div>
@@ -123,7 +123,7 @@
                         <label class="col-form-label col-12"> ساعة الإنصراف </label>
                         <div class="input-group-prepend col-12">
                           <span class="input-group-text"> <i class="la la-clock-o" style="font-size: 18px"></i> </span>
-                          <input type="text" class="form-control">
+                          <input class="form-control" id="kt_timepicker_2" readonly="" placeholder=" اختار وقت " type="text">
                         </div>
                       </div>
                     </div>
