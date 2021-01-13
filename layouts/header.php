@@ -47,14 +47,13 @@
 		<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
 
 			<div class="kt-header-mobile__logo">
-				<a href="index.html">
-					<img alt="Logo" src="assets/media/logos/logo-12.png" />
+				<a href="index.php">
+          <h3 class="logo"> Tech <span> CRM </span> </h3>
 				</a>
 			</div>
 
 			<div class="kt-header-mobile__toolbar">
 				<button class="kt-header-mobile__toolbar-toggler kt-header-mobile__toolbar-toggler--left" id="kt_aside_mobile_toggler"><span></span></button>
-				<button class="kt-header-mobile__toolbar-toggler" id="kt_header_mobile_toggler"><span></span></button>
 				<button class="kt-header-mobile__toolbar-topbar-toggler" id="kt_header_mobile_topbar_toggler"><i class="flaticon-more"></i></button>
 			</div>
 
@@ -72,7 +71,7 @@
 					<div class="kt-aside__brand kt-grid__item " id="kt_aside_brand">
 						<div class="kt-aside__brand-logo">
 							<a href="index.php" style="color: #fff;">
-								<h3 class="logo"> Tech <span> CRM <span> <h3>
+								<h3 class="logo"> Tech <span> CRM </span> </h3>
 							</a>
 						</div>
 						<div class="kt-aside__brand-tools">
@@ -282,7 +281,17 @@
 								</div>
 
 								<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround dropdown-menu-lg">
-									NOTIFICATIONS DROPDOWN
+
+                  <ul class="list-unstyled">
+                    <li class="alert alert-solid-success alert-bold my-2">
+                      <a href="#" class="alert-text"> اشعار 1 </a>
+                    </li>
+
+                    <li class="alert alert-solid-success alert-bold my-2">
+                      <a href="#" class="alert-text"> اشعار 2 </a>
+                    </li>
+                  </ul>
+
 								</div>
 							</div>
 							<!--END:: NOTIFICATIONS -->

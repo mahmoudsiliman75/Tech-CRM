@@ -5,7 +5,7 @@
 	<!-- START:: CONTENT -->
 	<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid row">
 
-    <div class="kt-portlet kt-portlet--height-fluid- col-4 justify-content-center align-items-center" style="max-height: 250px">
+    <div class="kt-portlet kt-portlet--height-fluid- col-12 col-md-4 justify-content-center align-items-center" style="max-height: 250px">
 
       <div class="kt-portlet__head kt-portlet__head--noborder">
         <div class="kt-portlet__head-label">
@@ -17,7 +17,7 @@
       <div class="kt-portlet__body">
         <!--begin::Widget -->
         <div class="kt-widget kt-widget--user-profile-2">
-          <div class="kt-widget__head">
+          <div class="kt-widget__head d-flex flex-column">
             <div class="kt-widget__media">
               <img class="kt-widget__img kt-hidden-" src="assets/media//users/300_14.jpg" alt="image">
             </div>
@@ -54,7 +54,7 @@
       </div>
     </div>
 
-    <div class="kt-grid__item kt-grid__item--fluid kt-app__content col-8">
+    <div class="kt-grid__item kt-grid__item--fluid kt-app__content col-12 col-md-8">
       <div class="row">
         <div class="col">
           <!--START:: FINANC SECTION-->
