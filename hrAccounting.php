@@ -226,6 +226,16 @@
                         <span class="kt-badge kt-badge--success kt-badge--xl kt-badge--rounded d-block w-100 p-3">  الراتب المستحق : 5400 </span>
                       </div>
 
+                      <div class="form-group col-6 col-md-4 mb-2">
+                        <div class="row">
+                          <!-- <label class="col-form-label col-12">  المبلغ المدفوع </label> -->
+                          <div class="input-group-prepend col-12 mt-3">
+                            <span class="input-group-text"> <i class="la la-dollar" style="font-size: 18px"></i> </span>
+                            <input type="text" class="form-control" placeholder="  المبلغ المدفوع ">
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
 
                 </div>
