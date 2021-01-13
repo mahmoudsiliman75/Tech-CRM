@@ -142,7 +142,6 @@ $(document).ready( function () {
   // END:: DATATABLES OPTIONS
 
   //  START:: SWEET ALERT
-
   $('.done').click(function(e) {
     swal.fire({
       title: 'تم التاكيد ',

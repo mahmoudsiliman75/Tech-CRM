@@ -115,7 +115,7 @@
                   <div class="row">
                     <label class="col-form-label col-12">اضافة صورة البطاقة الشخصية</label>
                     <div class="input-group-prepend col-12 row">
-                      <div class="dropzone dropzone-multi col-12" id="kt_dropzone_4">
+                      <div class="dropzone dropzone-multi col-12" id="id-photo">
 
                         <div class="dropzone-panel">
                           <a class="dropzone-select btn btn-label-brand btn-bold btn-sm">اضافه ملف</a>
@@ -157,7 +157,7 @@
                   <div class="row">
                     <label class="col-form-label col-12">اضافة صورة الشخصية</label>
                     <div class="input-group-prepend col-12 row">
-                      <div class="dropzone dropzone-multi col-12" id="kt_dropzone_4">
+                      <div class="dropzone dropzone-multi col-12" id="personal-photo">
 
                         <div class="dropzone-panel">
                           <a class="dropzone-select btn btn-label-brand btn-bold btn-sm">اضافه ملف</a>
@@ -194,6 +194,48 @@
                 
 
 
+
+              </div>
+
+              <div class="form-group col-12 col-md-4 px-4">
+                <div class="input-group">
+                  <div class="row">
+                    <label class="col-form-label col-12">اضافة ملفات اخرى</label>
+                    <div class="input-group-prepend col-12 row">
+                      <div class="dropzone dropzone-multi col-12" id="otherFiles">
+
+                        <div class="dropzone-panel">
+                          <a class="dropzone-select btn btn-label-brand btn-bold btn-sm">اضافه ملف</a>
+                        </div>
+
+                        <div class="dropzone-items">
+                          <div class="dropzone-item" style="display:none">
+
+                            <div class="dropzone-file">
+                              <div class="dropzone-filename" title="some_file_name"><span data-dz-name>some_file_name</span> <strong>(<span  data-dz-size>340kb</span>)</strong></div>
+                              <div class="dropzone-error" data-dz-errormessage></div>
+                            </div>
+
+                            <div class="dropzone-progress">
+                              <div class="progress">
+                                <div class="progress-bar kt-bg-brand" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-dz-uploadprogress></div>
+                              </div>
+                            </div>
+
+                            <div class="dropzone-toolbar">
+                              <span class="dropzone-start"><i class="flaticon2-arrow"></i></span>
+                              <span class="dropzone-cancel" data-dz-remove style="display: none;"><i class="flaticon2-cross"></i></span>
+                              <span class="dropzone-delete" data-dz-remove><i class="flaticon2-cross"></i></span>
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                      <span class="form-text text-muted col-12">الحجم الاقصى للملفات 3 MB</span>
+                    </div>
+                  </div>
+                </div>
 
               </div>
 

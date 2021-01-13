@@ -91,36 +91,13 @@
 										<span class="kt-menu__link-text">الرئيسية</span>
 									</a>
 								</li>
-                
+
                 <li class="kt-menu__item" aria-haspopup="false">
 									<a href="usersList.php" class="kt-menu__link ">
                   <i class="kt-menu__link-icon la la-users la-2x" style="font-size: 20px"></i>
 										<span class="kt-menu__link-text">إدارة المستخدمين</span>
 									</a>
 								</li>
-
-								<!-- <li class="kt-menu__item"  aria-haspopup="true">
-									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
-										<i class="kt-menu__link-icon la la-users la-2x" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text">ادارة المستخدمين</span>
-										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
-									</a>
-									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-										<ul class="kt-menu__subnav">
-
-											<li class="kt-menu__item">
-												<a href="addNewUser.php" class="kt-menu__link kt-menu__toggle">إضافة مستخدم جديد</a>
-											</li>
-											<li class="kt-menu__item">
-												<a href="usersList.php" class="kt-menu__link kt-menu__toggle">قائمة المستخدمين</a>
-											</li>
-											<li class="kt-menu__item">
-												<a href="UsersArchive.php" class="kt-menu__link kt-menu__toggle">قائمة ارشيف المستخدمين</a>
-											</li>
-
-										</ul>
-									</div>
-								</li> -->
 
 								<li class="kt-menu__item"  aria-haspopup="true">
 									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
