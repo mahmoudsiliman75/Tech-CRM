@@ -91,8 +91,15 @@
 										<span class="kt-menu__link-text">الرئيسية</span>
 									</a>
 								</li>
+                
+                <li class="kt-menu__item" aria-haspopup="false">
+									<a href="usersList.php" class="kt-menu__link ">
+                  <i class="kt-menu__link-icon la la-users la-2x" style="font-size: 20px"></i>
+										<span class="kt-menu__link-text">إدارة المستخدمين</span>
+									</a>
+								</li>
 
-								<li class="kt-menu__item"  aria-haspopup="true">
+								<!-- <li class="kt-menu__item"  aria-haspopup="true">
 									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
 										<i class="kt-menu__link-icon la la-users la-2x" style="font-size: 20px"></i>
 										<span class="kt-menu__link-text">ادارة المستخدمين</span>
@@ -113,7 +120,7 @@
 
 										</ul>
 									</div>
-								</li>
+								</li> -->
 
 								<li class="kt-menu__item"  aria-haspopup="true">
 									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">

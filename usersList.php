@@ -10,8 +10,12 @@
         <!--START::PORTEL-->
         <div class="kt-portlet">
           <div class="kt-portlet__head">
-            <div class="kt-portlet__head-label">
+            <div class="kt-portlet__head-label d-flex justify-content-between w-100">
               <h3 class="kt-portlet__head-title"> قائمة المستخدمين </h3>
+              <div class="btns-box">
+                <a href="addNewUser.php" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-plus"></i> إضافة مستخدم جديد </a>
+                <a href="UsersArchive.php" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-hdd-o"></i>  ارشيف المستخدمين  </a>
+              </div>
             </div>
           </div>
         <div>
@@ -39,6 +43,9 @@
                 <td>Orange</td>
 
                 <td align="right">
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تاريخ العمليات">
+                    <i class="la la-calendar"></i>
+                  </a>
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل">
                     <i class="la la-edit"></i>
                   </a>
@@ -50,12 +57,16 @@
                   </a>
                 </td>
               </tr>
+
               <tr>
                 <td>2</td>
                 <td>GMC</td>
                 <td>Jimmy</td>
                 <td>Goldenrod</td>
                 <td align="right">
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تاريخ العمليات">
+                    <i class="la la-calendar"></i>
+                  </a>
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل">
                     <i class="la la-edit"></i>
                   </a>
