@@ -289,4 +289,16 @@ $(document).ready( function () {
   $('#total-cost').on('input', calcTheRemaining);
   $('#down-payment').on('input', calcTheRemaining)
   // END:: CALC THE REMAINING OF NEW DEAL
+
+  // START:: ADD SYSTEM USER INFO
+  $('.system-user').css('display', 'none');
+  $('#system-user-status-selector').on('change', function() {
+    let optionValue = $('#system-user-status-selector').children('option:checked').val();
+    if( optionValue == 0 ) {
+      $('.system-user').css('display', 'none');
+    } else if ( optionValue == 1 ) {
+      $('.system-user').css('display', 'block');
+    }
+  });
+  // END:: ADD SYSTEM USER INFO
 });

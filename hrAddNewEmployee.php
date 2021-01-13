@@ -110,6 +110,49 @@
                 </div>
               </div>
 
+              <div class="form-group col-12 col-md-4">
+                <div class="row">
+                  <label class="col-form-label col-12"> الحالة </label>
+                  <div class="input-group-prepend col-12">
+                    <span class="input-group-text"> <i class="la la-bookmark" style="font-size: 18px"></i> </span>
+                    <select id="system-user-status-selector" class="form-control kt-selectpicker" data-size="7" data-live-search="true">
+                      <option value="0"> غير مستخدم للنظام </option>
+                      <option value="1">مستخدم للنظام</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="system-user form-group col-12 col-md-4">
+                <div class="row">
+                  <label class="col-form-label col-12"> اسم المستخدم لتسجيل الدخول </label>
+                  <div class="input-group-prepend col-12">
+                    <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
+                    <input type="text" class="form-control" placeholder=" الاسم">
+                  </div>
+                </div>
+              </div>
+
+              <div class="system-user form-group col-12 col-md-4">
+                <div class="row">
+                  <label class="col-form-label col-12"> رقم هاتف لتسجيل الدخول </label>
+                  <div class="input-group-prepend col-12">
+                    <span class="input-group-text"> <i class="la la-mobile" style="font-size: 18px"></i> </span>
+                    <input type="text" class="form-control" placeholder=" رقم الهاتف">
+                  </div>
+                </div>
+              </div>
+
+              <div class="system-user form-group col-12 col-md-4">
+                <div class="row">
+                  <label class="col-form-label col-12">  كلمة المرور </label>
+                  <div class="input-group-prepend col-12">
+                    <span class="input-group-text"> <i class="la la-lock" style="font-size: 18px"></i> </span>
+                    <input type="password" class="form-control" placeholder=" كلمة المرور">
+                  </div>
+                </div>
+              </div>
+
               <div class="form-group col-12 col-md-4 px-4">
                 <div class="input-group">
                   <div class="row">

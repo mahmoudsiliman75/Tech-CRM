@@ -21,10 +21,14 @@
 
             <div class="form-group col-12 col-md-4">
               <div class="row">
-                <label class="col-form-label col-12"> اسم المسخدم </label>
+                <label class="col-form-label col-12"> اسم المستخدم </label>
                 <div class="input-group-prepend col-12">
                   <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
-                  <input type="text" class="form-control" placeholder=" اسم المستحدم ">
+                  <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
+                    <option> اختار اسم المستخدم </option>
+                    <option value="1"> محمود سليمان </option>
+                    <option value="2"> محمد عيد </option>
+                  </select>
                 </div>
               </div>
             </div>
@@ -72,6 +76,7 @@
             <thead class="thead-dark">
               <tr>
                 <th>#</th>
+                <th> المستخدم </th>
                 <th> الدور </th>
                 <th> الصلاحيات </th>
                 <th class="action">إجراء</th>
@@ -81,6 +86,7 @@
             <tbody>
               <tr>
                 <td>1</td>
+                <td> محمد عيد </td>
                 <td> دور 1 </td>
                 <td> صلاحية 1 </td>
                 <td align="right">
