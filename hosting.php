@@ -40,7 +40,64 @@
                 <td> CRM </td>
                 <td> TechnoMasr </td>
                 <td>  باقة بلاتينوم </td>
-                <td>  31 - 12 - 2020 </td>
+                <td>  
+                  <p class="mb-1"> 31 - 1 - 2021 </p> 
+                  <span class="kt-badge kt-badge--dark kt-badge--inline kt-badge--pill kt-badge--rounded w-50" style="height: 25px">
+                    باقي سنه
+                  </span>
+                </td>
+                <td>  بلا بلا بلا بلا بلا </td>
+
+                <td align="right">
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="تعديل">
+                    <i class="la la-edit"></i>
+                  </a>
+
+                  <a href="#" class="delete kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
+                    <i class="la la-trash"></i>
+                  </a>
+
+                </td>
+              </tr>
+
+              <tr class="table-danger">
+                <td>2</td>
+                <td> Website </td>
+                <td> TechnoMasr </td>
+                <td>  باقة بلاتينوم </td>
+                <td>
+                  <p class="mb-1"> 20 - 1 - 2020 </p> 
+                  <span class="kt-badge kt-badge--danger kt-badge--inline kt-badge--pill kt-badge--rounded w-50" style="height: 25px">
+                    باقى 3 ايام
+                  </span>
+                </td>
+                <td>  بلا بلا بلا بلا بلا </td>
+
+                <td align="right">
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="تعديل">
+                    <i class="la la-edit"></i>
+                  </a>
+
+                  <a href="#" class="delete kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
+                    <i class="la la-trash"></i>
+                  </a>
+
+                </td>
+              </tr>
+
+              <tr class="table-warning">
+                <td>3</td>
+                <td> U Care </td>
+                <td> TechnoMasr </td>
+                <td>  باقة بلاتينوم </td>
+                <td>
+                  <p class="mb-1"> 1 - 2 - 2020 </p>
+                  <span class="kt-badge kt-badge--warning kt-badge--inline kt-badge--pill kt-badge--rounded w-50" style="height: 25px">
+                    باقي شهر
+                  </span>
+                </td>
                 <td>  بلا بلا بلا بلا بلا </td>
 
                 <td align="right">
