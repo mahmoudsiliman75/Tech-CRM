@@ -90,9 +90,7 @@
                       <div class="row">
                         <label class="col-form-label col-12"> التفاصيل </label>
                         <div class="input-group-prepend col-12">
-                          <textarea id="kt-ckeditor-1">
-                            <p>اكتب التفاصيل</p>
-                          </textarea>
+                          <textarea class="default"></textarea>
                         </div>
                       </div>
                     </div>

@@ -270,7 +270,7 @@ $(document).ready( function () {
 
   // START:: TEXT EDITOR
   ClassicEditor
-  .create( document.querySelector( '#kt-ckeditor-1' ) )
+  .create( document.querySelector( '.default' ) )
   .then( editor => {
     console.log( editor );
   } )

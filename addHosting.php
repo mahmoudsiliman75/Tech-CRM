@@ -69,7 +69,7 @@
                 <div class="row">
                   <label class="col-form-label col-12"> ملاحظات </label>
                   <div class="input-group-prepend col-12">
-                    <textarea class="form-control" id="hostingNotes" rows="6"></textarea>
+                    <textarea class="default" name="kt-ckeditor-1"></textarea>
                   </div>
                 </div>
             </div>
