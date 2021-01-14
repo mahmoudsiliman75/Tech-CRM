@@ -15,9 +15,8 @@
             </div>
           </div>
         <div>
+        </div>
         <!--START::PORTEL-->
-
-
 
         <!--START: EMPLOYEES MONTHES FINANCIALS DATATABLE-->
         <div class="kt-portlet__body kt-portlet__body--fit">

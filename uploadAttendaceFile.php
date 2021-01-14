@@ -15,6 +15,7 @@
             </div>
           </div>
         <div>
+        </div>
         <!--END::PORTEL-->
 
         <!--START:: ADD NEW HOSTING FORM-->

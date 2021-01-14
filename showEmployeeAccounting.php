@@ -143,6 +143,7 @@
             </div>
           </div>
         <div>
+        </div>
         <!--START::PORTEL-->
 
         <!-- START:: SEARCH FILTER MODAL -->
