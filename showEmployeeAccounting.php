@@ -135,10 +135,135 @@
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
               <h3 class="kt-portlet__head-title">  سجل الحسابات  </h3>
+
+              <div class="btns-box">
+                <button type="button" class="btn btn-outline-success mx-1 mb-1" data-toggle="modal" data-target="#search-filter"> <i class="la la-search"></i>  تحديد فترة محاسبية  </button>
+                <button type="button" class="btn btn-outline-success mx-1 mb-1" data-toggle="modal" data-target="#add-salary"> <i class="la la-plus"></i>  اضافة قبض  </button>
+              </div>
             </div>
           </div>
         <div>
         <!--START::PORTEL-->
+
+        <!-- START:: SEARCH FILTER MODAL -->
+        <div class="modal fade" id="search-filter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">  اختار الفترة المحاسبية </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                </button>
+              </div>
+              <div class="modal-body">
+                <form class="kt-form pb-0 p-3">
+
+                  <div class="row">
+
+                    <div class="form-group col-12 col-md-6">
+                      <div class="row">
+                        <label class="col-form-label col-12">سنوات  </label>
+                        <div class="input-group-prepend col-12">
+                          <span class="input-group-text"> <i class="la la-calendar" style="font-size: 18px"></i> </span>
+                          <select class="form-control kt-select2" id="years" multiple="multiple">
+                            <option value="1">2018</option>
+                            <option value="2">2019</option>
+                            <option value="3">2020</option>
+                            <option value="4">2021</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group col-12 col-md-6">
+                      <div class="row">
+                        <label class="col-form-label col-12">شهور  </label>
+                        <div class="input-group-prepend col-12">
+                          <span class="input-group-text"> <i class="la la-calendar" style="font-size: 18px"></i> </span>
+                          <select class="form-control kt-select2" id="monthes" multiple="multiple">
+                            <option value="1">يناير</option>
+                            <option value="2">فبراير</option>
+                            <option value="3">مارس</option>
+                            <option value="4">ابريل</option>
+                            <option value="5">مايو</option>
+                            <option value="6">يونيو</option>
+                            <option value="7">يوليو</option>
+                            <option value="8">اغسطس</option>
+                            <option value="9">سبتمبر</option>
+                            <option value="10">اكتوبر</option>
+                            <option value="11">نوفمبر</option>
+                            <option value="12">ديسمبر</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">الغاء</button>
+                <button type="button" class="btn btn-success"> أظهار </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END:: SEARCH FILTER MODAL -->
+
+        <!-- START:: ADD SALARY MODAL -->
+        <div class="modal fade" id="add-salary" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"> اضافة قبض </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                </button>
+              </div>
+              <div class="modal-body">
+                <form class="kt-form pb-0 p-3">
+
+                  <div class="row">
+
+                    <div class="form-group col-12 col-md-6">
+                      <div class="row">
+                        <label class="col-form-label col-12"> التاريخ  </label>
+                        <div class="input-group-prepend col-12">
+                          <span class="input-group-text"> <i class="la la-calendar" style="font-size: 18px"></i> </span>
+                          <input type="text" class="form-control" readonly="" value="05/20/2017" id="kt_datepicker_3">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group col-12 col-md-6">
+                      <div class="row">
+                        <label class="col-form-label col-12">  القيمة </label>
+                        <div class="input-group-prepend col-12">
+                          <span class="input-group-text"> <i class="la la-dollar" style="font-size: 18px; font-weight: bold"></i> </span>
+                          <input class="form-control" type="number" value="42" id="employee-added-salary">                
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group col-12 px-4">
+                      <div class="input-group">
+                        <div class="row">
+                          <button type="submit" class="btn btn-success" style="background-color:#17b978; border:none;"> حفظ البيانات </button> 
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">الغاء</button>
+                <button type="button" class="btn btn-success"> اضافة </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END:: ADD SALARY MODAL -->
 
         <!--START: EMPLOYEE ACCOUNTING DATATABLE-->
         <div class="kt-portlet__body kt-portlet__body--fit">
@@ -152,6 +277,7 @@
                 <th> البيان </th>
                 <th> دائن </th>
                 <th> مدين </th>
+                <th class="action">إجراء</th>
               </tr>
             </thead>
             <tbody>
@@ -163,6 +289,13 @@
                 <td> الملاحظات ان وجدت </td>
                 <td> 400 </td>
                 <td> 200 </td>
+                <td align="right">
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="الاداء">
+                    <i class="la la-star-o"></i>
+                  </a>
+
+                </td>
               </tr>
 
             </tbody>
@@ -173,109 +306,6 @@
 
       </div>  
     </div>
-
-    <div class="employee-reviwe-accounting row">
-      <div class="col-12">
-        <!--START::PORTEL-->
-        <div class="kt-portlet">
-          <div class="kt-portlet__head">
-            <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
-              <h3 class="kt-portlet__head-title"> اختر الفترة المحاسبية </h3>
-            </div>
-          </div>
-        <div>
-        <!--START::PORTEL-->
-
-        <!-- START:: EMPLOYEE ACCOUNTING INTERVAL FORM -->
-        <form class="kt-form p-3 mt-5">
-          <div class="row">
-
-            <div class="form-group col-12 col-md-6">
-              <div class="row">
-                <label class="col-form-label col-12"> من يوم  </label>
-                <div class="input-group-prepend col-12">
-                  <span class="input-group-text"> <i class="la la-calendar" style="font-size: 18px"></i> </span>
-                  <input type="text" class="form-control" readonly="" value="05/20/2017" id="kt_datepicker_3">
-                </div>
-              </div>
-            </div>
-
-            <div class="form-group col-12 col-md-6">
-              <div class="row">
-                <label class="col-form-label col-12"> الى يوم </label>
-                <div class="input-group-prepend col-12">
-                  <span class="input-group-text"> <i class="la la-calendar" style="font-size: 18px"></i> </span>
-                  <input type="text" class="form-control" readonly="" value="05/20/2017" id="kt_datepicker_3">
-                </div>
-              </div>
-            </div>
-
-            <div class="form-group col-12 px-4">
-              <div class="input-group">
-                <div class="row">
-                  <button type="submit" class="btn btn-success" style="background-color:#17b978; border:none;">إظهار القيود</button> 
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </form>
-        <!-- END:: EMPLOYEE ACCOUNTING INTERVAL FORM -->
-
-      </div>  
-    </div>
-
-    <div class="employee-salary row">
-      <div class="col-12">
-        <!--START::PORTEL-->
-        <div class="kt-portlet">
-          <div class="kt-portlet__head">
-            <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
-              <h3 class="kt-portlet__head-title">  إضافة قبض </h3>
-            </div>
-          </div>
-        <div>
-        <!--START::PORTEL-->
-
-        <!-- START:: EMPLOYEE SALARY FORM -->
-        <form class="kt-form p-3 mt-5">
-          <div class="row">
-
-            <div class="form-group col-12 col-md-6">
-              <div class="row">
-                <label class="col-form-label col-12"> التاريخ  </label>
-                <div class="input-group-prepend col-12">
-                  <span class="input-group-text"> <i class="la la-calendar" style="font-size: 18px"></i> </span>
-                  <input type="text" class="form-control" readonly="" value="05/20/2017" id="kt_datepicker_3">
-                </div>
-              </div>
-            </div>
-
-            <div class="form-group col-12 col-md-6">
-              <div class="row">
-                <label class="col-form-label col-12">  القيمة </label>
-                <div class="input-group-prepend col-12">
-                  <span class="input-group-text"> <i class="la la-dollar" style="font-size: 18px; font-weight: bold"></i> </span>
-                  <input class="form-control" type="number" value="42" id="employee-added-salary">                
-                </div>
-              </div>
-            </div>
-
-            <div class="form-group col-12 px-4">
-              <div class="input-group">
-                <div class="row">
-                  <button type="submit" class="btn btn-success" style="background-color:#17b978; border:none;"> حفظ البيانات </button> 
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </form>
-        <!-- END:: EMPLOYEE SALARY FORM -->
-
-      </div>  
-    </div>
-
 
 	</div>
 	<!-- END:: CONTENT -->

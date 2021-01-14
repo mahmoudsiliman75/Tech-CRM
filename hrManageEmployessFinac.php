@@ -15,7 +15,7 @@
 
               <div class="btns-box">
                 <button type="button" class="btn btn-outline-success mx-1 mb-1" data-toggle="modal" data-target="#search-filter"> <i class="la la-search"></i>  تحديد فترة زمنية  </button>
-                <a href="hrMonthesFinancDetails.php" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-plus"></i> جدول المكافئات والخصومات </a>
+                <a href="hrMonthesFinancDetails.php" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-database"></i> جدول المكافئات والخصومات </a>
               </div>
             </div>
           </div>
