@@ -176,6 +176,10 @@
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
 
+                      <li class="kt-menu__item">
+												<a href="clients-list.php" class="kt-menu__link kt-menu__toggle"> قائمة  العملاء  </a>
+                      </li>
+
 											<li class="kt-menu__item">
 												<a href="add-leads.php" class="kt-menu__link kt-menu__toggle"> إضافة عميل محتمل  </a>
                       </li>
@@ -189,20 +193,11 @@
                       </li>
 
                       <li class="kt-menu__item">
-												<a href="add-follow-up.php" class="kt-menu__link kt-menu__toggle"> إضافة متابعة عميل محتمل </a>
-                      </li>
-
-                      <li class="kt-menu__item">
 												<a href="follow-up-list.php" class="kt-menu__link kt-menu__toggle"> قائمة المتابعات  </a>
                       </li>
 
-                      <li class="kt-menu__item">
-												<a href="new-deal.php" class="kt-menu__link kt-menu__toggle">   إضافة تعاقد جديد </a>
-                      </li>
 
-                      <li class="kt-menu__item">
-												<a href="clients-list.php" class="kt-menu__link kt-menu__toggle"> قائمة  العملاء  </a>
-                      </li>
+
 
                       <li class="kt-menu__item">
 												<a href="project-managers-list.php" class="kt-menu__link kt-menu__toggle"> قائمة توزيع المشاريع  </a>
