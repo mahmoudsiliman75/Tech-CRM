@@ -258,8 +258,7 @@
                 <a href="new-deal.php" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-plus"></i>  اضافة تعاقد </a>
               </div>
             </div>
-          </div>
-        <div></div>
+        </div>
         <!--END::PORTEL-->
 
         <!-- START:: SEARCH FILTER MODAL -->
@@ -332,21 +331,58 @@
 
           <table class="standard table table-responsive-sm" width="100%">
             <thead class="thead-dark">
-              <tr>
-                <th>#</th>
+              <tr class="text-center">
+                <th style="width: 15px">#</th>
                 <th>  المشروع </th>
                 <th>  العميل </th>
+                <th>  مسؤل التعاقد </th>
+                <th>  الحسابات </th>
                 <th class="action">إجراء</th>
-
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>1</td>
-                <td> CRM </td>
-                <td> TechnoMasr </td>
+                <td class="text-center"> 
+                  <p class="mb-0"> CRM  </p>
+                  <span class="kt-badge kt-badge--dark kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 85%">
+                    جارى العمل 
+                  </span>
+                </td>
+
+                <td class="text-center"> 
+                  <p class="mb-1"> TechnoMasr </p>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> العاقدات </a> 
+                  </span>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> الحسابات </a>
+                  </span> 
+                </td>
+
+                <td class="text-center"> 
+                  <p class="mb-1"> محمود سليمان </p>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> العاقدات </a> 
+                  </span>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> الحسابات </a>
+                  </span>  
+                </td>
+
+                <td>  
+                  <ul>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> الاجمالى:  </span> 5000 </li>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> المدفوع:  </span> 4000 </li>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> الباقي:  </span> 1000 </li>
+                  </ul>
+                </td>
 
                 <td align="right">
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="الدفعات المالية">
+                    <i class="la la-dollar"></i>
+                  </a>
 
                   <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="تعديل">
                     <i class="la la-edit"></i>
@@ -359,6 +395,167 @@
                 </td>
               </tr>
 
+              <tr>
+                <td>2</td>
+                <td class="text-center"> 
+                  <p class="mb-0"> U Care  </p>
+                  <span class="kt-badge kt-badge--danger kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 85%">
+                    تم الالغاء 
+                  </span>
+                </td>
+
+                <td class="text-center"> 
+                  <p class="mb-1"> TechnoMasr </p>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> العاقدات </a> 
+                  </span>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> الحسابات </a>
+                  </span> 
+                </td>
+
+                <td class="text-center"> 
+                  <p class="mb-1"> محمود سليمان </p>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> العاقدات </a> 
+                  </span>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> الحسابات </a>
+                  </span>  
+                </td>
+
+                <td>  
+                  <ul>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> الاجمالى:  </span> 5000 </li>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> المدفوع:  </span> 4000 </li>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> الباقي:  </span> 1000 </li>
+                  </ul>
+                </td>
+
+                <td align="right">
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="الدفعات المالية">
+                    <i class="la la-dollar"></i>
+                  </a>
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="تعديل">
+                    <i class="la la-edit"></i>
+                  </a>
+
+                  <a href="#" class="delete kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
+                    <i class="la la-trash"></i>
+                  </a>
+
+                </td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td class="text-center"> 
+                  <p class="mb-0"> U Care v2.0 </p>
+                  <span class="kt-badge kt-badge--success kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 85%">
+                    تم التسليم 
+                  </span>
+                </td>
+
+                <td class="text-center"> 
+                  <p class="mb-1"> TechnoMasr </p>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> العاقدات </a> 
+                  </span>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> الحسابات </a>
+                  </span> 
+                </td>
+
+                <td class="text-center"> 
+                  <p class="mb-1"> محمود سليمان </p>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> العاقدات </a> 
+                  </span>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> الحسابات </a>
+                  </span>  
+                </td>
+
+                <td>  
+                  <ul>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> الاجمالى:  </span> 5000 </li>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> المدفوع:  </span> 4000 </li>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> الباقي:  </span> 1000 </li>
+                  </ul>
+                </td>
+
+                <td align="right">
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="الدفعات المالية">
+                    <i class="la la-dollar"></i>
+                  </a>
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="تعديل">
+                    <i class="la la-edit"></i>
+                  </a>
+
+                  <a href="#" class="delete kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
+                    <i class="la la-trash"></i>
+                  </a>
+
+                </td>
+              </tr>
+
+              <tr>
+                <td>4</td>
+                <td class="text-center"> 
+                  <p class="mb-0"> CRM v2.0  </p>
+                  <span class="kt-badge kt-badge--warning kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 85%">
+                    فى انتظار التسليم 
+                  </span>
+                </td>
+
+                <td class="text-center"> 
+                  <p class="mb-1"> TechnoMasr </p>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> العاقدات </a> 
+                  </span>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> الحسابات </a>
+                  </span> 
+                </td>
+
+                <td class="text-center"> 
+                  <p class="mb-1"> محمود سليمان </p>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> العاقدات </a> 
+                  </span>
+                  <span class="kt-badge  kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" style="height: 25px; width: 40%">
+                    <a href="#" class="text-white"> الحسابات </a>
+                  </span>  
+                </td>
+
+                <td>  
+                  <ul>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> الاجمالى:  </span> 5000 </li>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> المدفوع:  </span> 4000 </li>
+                    <li class="mb-1"> <span class="kt-font-bolder kt-font-info"> الباقي:  </span> 1000 </li>
+                  </ul>
+                </td>
+
+                <td align="right">
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--success" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="الدفعات المالية">
+                    <i class="la la-dollar"></i>
+                  </a>
+
+                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="تعديل">
+                    <i class="la la-edit"></i>
+                  </a>
+
+                  <a href="#" class="delete kt-badge kt-badge--outline kt-badge--danger" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="حذف">
+                    <i class="la la-trash"></i>
+                  </a>
+
+                </td>
+              </tr>
             </tbody>
           </table>
 

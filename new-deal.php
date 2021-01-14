@@ -171,14 +171,14 @@
             </div>
 
             <div class="form-group col-12 col-md-12">
-                <div class="row">
-                  <label class="col-form-label col-12"> ملاحظات </label>
-                  <div class="input-group-prepend col-12">
-                    <textarea class="default">
-                    </textarea>
-                  </div>
+              <div class="row">
+                <label class="col-form-label col-12"> ملاحظات </label>
+                <div class="input-group-prepend col-12">
+                  <textarea class="default">
+                  </textarea>
                 </div>
               </div>
+            </div>
 
             <div class="form-group col-12 px-4">
               <div class="input-group">

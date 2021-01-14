@@ -44,7 +44,7 @@
                   <p class="mb-1"> 31 - 1 - 2021 </p> 
                   <span class="kt-badge kt-badge--dark kt-badge--inline kt-badge--pill kt-badge--rounded w-50" style="height: 25px">
                     باقي سنه
-                  </span>
+                  </span> 
                 </td>
                 <td>  بلا بلا بلا بلا بلا </td>
 

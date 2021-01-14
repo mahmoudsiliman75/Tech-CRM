@@ -8,7 +8,7 @@
     <!-- START:: PROJECT SECTION -->
     <div class=" client-cards row mb-2">
 
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-3">
         <div class="financ-container kt-portlet kt-iconbox kt-iconbox--success kt-iconbox--animate-fast">
           <div class="kt-portlet__body">
             <div class="kt-iconbox__body">
@@ -38,7 +38,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-3">
         <div class="financ-container kt-portlet kt-iconbox kt-iconbox--brand kt-iconbox--animate-slow">
           <div class="kt-portlet__body">
             <div class="kt-iconbox__body">
@@ -68,7 +68,36 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-3">
+        <div class="financ-container kt-portlet kt-iconbox kt-iconbox--brand kt-iconbox--animate-slow">
+          <div class="kt-portlet__body">
+            <div class="kt-iconbox__body">
+
+              <div class="kt-iconbox__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <rect x="0" y="0" width="24" height="24"/>
+                    <path d="M11.6734943,8.3307728 L14.9993074,6.09979492 L14.1213255,5.22181303 C13.7308012,4.83128874 13.7308012,4.19812376 14.1213255,3.80759947 L15.535539,2.39338591 C15.9260633,2.00286161 16.5592283,2.00286161 16.9497526,2.39338591 L22.6066068,8.05024016 C22.9971311,8.44076445 22.9971311,9.07392943 22.6066068,9.46445372 L21.1923933,10.8786673 C20.801869,11.2691916 20.168704,11.2691916 19.7781797,10.8786673 L18.9002333,10.0007208 L16.6692373,13.3265608 C16.9264145,14.2523264 16.9984943,15.2320236 16.8664372,16.2092466 L16.4344698,19.4058049 C16.360509,19.9531149 15.8568695,20.3368403 15.3095595,20.2628795 C15.0925691,20.2335564 14.8912006,20.1338238 14.7363706,19.9789938 L5.02099894,10.2636221 C4.63047465,9.87309784 4.63047465,9.23993286 5.02099894,8.84940857 C5.17582897,8.69457854 5.37719743,8.59484594 5.59418783,8.56552292 L8.79074617,8.13355557 C9.76799113,8.00149544 10.7477104,8.0735815 11.6734943,8.3307728 Z" fill="#000000"/>
+                    <polygon fill="#000000" opacity="0.3" transform="translate(7.050253, 17.949747) rotate(-315.000000) translate(-7.050253, -17.949747) " points="5.55025253 13.9497475 5.55025253 19.6640332 7.05025253 21.9497475 8.55025253 19.6640332 8.55025253 13.9497475"/>
+                  </g>
+                </svg>
+              </div>
+
+              <div class="kt-iconbox__desc">
+                <h4 class="kt-iconbox__title">
+                  الدفعات المالية المدفوعة
+                </h4>
+                <div class="kt-iconbox__content">
+                  <h3> 3000 </h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3">
         <div class="financ-container kt-portlet kt-iconbox kt-iconbox--danger kt-iconbox--animate-slow">
           <div class="kt-portlet__body">
             <div class="kt-iconbox__body">
@@ -106,6 +135,7 @@
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
               <h3 class="kt-portlet__head-title">  محمود سليمان  <span class="kt-font-success kt-font-boldest"> (U Care) </span> </h3>
+              <button type="button" class="btn btn-outline-success mx-1 mb-1" data-toggle="modal" data-target="#add-installment"> <i class="la la-plus"></i>  اضافة دفعة مالية  </button>
             </div>
           </div>
         <div>
@@ -220,7 +250,7 @@
     <!-- START:: PROJECT SECTION -->
     <div class=" client-cards row mb-2">
 
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-3">
         <div class="financ-container kt-portlet kt-iconbox kt-iconbox--success kt-iconbox--animate-fast">
           <div class="kt-portlet__body">
             <div class="kt-iconbox__body">
@@ -250,7 +280,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-3">
         <div class="financ-container kt-portlet kt-iconbox kt-iconbox--brand kt-iconbox--animate-slow">
           <div class="kt-portlet__body">
             <div class="kt-iconbox__body">
@@ -280,7 +310,36 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-3">
+        <div class="financ-container kt-portlet kt-iconbox kt-iconbox--brand kt-iconbox--animate-slow">
+          <div class="kt-portlet__body">
+            <div class="kt-iconbox__body">
+
+              <div class="kt-iconbox__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <rect x="0" y="0" width="24" height="24"/>
+                    <path d="M11.6734943,8.3307728 L14.9993074,6.09979492 L14.1213255,5.22181303 C13.7308012,4.83128874 13.7308012,4.19812376 14.1213255,3.80759947 L15.535539,2.39338591 C15.9260633,2.00286161 16.5592283,2.00286161 16.9497526,2.39338591 L22.6066068,8.05024016 C22.9971311,8.44076445 22.9971311,9.07392943 22.6066068,9.46445372 L21.1923933,10.8786673 C20.801869,11.2691916 20.168704,11.2691916 19.7781797,10.8786673 L18.9002333,10.0007208 L16.6692373,13.3265608 C16.9264145,14.2523264 16.9984943,15.2320236 16.8664372,16.2092466 L16.4344698,19.4058049 C16.360509,19.9531149 15.8568695,20.3368403 15.3095595,20.2628795 C15.0925691,20.2335564 14.8912006,20.1338238 14.7363706,19.9789938 L5.02099894,10.2636221 C4.63047465,9.87309784 4.63047465,9.23993286 5.02099894,8.84940857 C5.17582897,8.69457854 5.37719743,8.59484594 5.59418783,8.56552292 L8.79074617,8.13355557 C9.76799113,8.00149544 10.7477104,8.0735815 11.6734943,8.3307728 Z" fill="#000000"/>
+                    <polygon fill="#000000" opacity="0.3" transform="translate(7.050253, 17.949747) rotate(-315.000000) translate(-7.050253, -17.949747) " points="5.55025253 13.9497475 5.55025253 19.6640332 7.05025253 21.9497475 8.55025253 19.6640332 8.55025253 13.9497475"/>
+                  </g>
+                </svg>
+              </div>
+
+              <div class="kt-iconbox__desc">
+                <h4 class="kt-iconbox__title">
+                  الدفعات المالية المدفوعة
+                </h4>
+                <div class="kt-iconbox__content">
+                  <h3> 5000 </h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3">
         <div class="financ-container kt-portlet kt-iconbox kt-iconbox--danger kt-iconbox--animate-slow">
           <div class="kt-portlet__body">
             <div class="kt-iconbox__body">
@@ -318,6 +377,7 @@
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
               <h3 class="kt-portlet__head-title">  محمود سليمان  <span class="kt-font-success kt-font-boldest"> (CRM) </span> </h3>
+              <button type="button" class="btn btn-outline-success mx-1 mb-1" data-toggle="modal" data-target="#add-installment"> <i class="la la-plus"></i>  اضافة دفعة مالية  </button>
             </div>
           </div>
         <div>
@@ -428,10 +488,106 @@
       </div>  
     </div>
     <!-- END:: PROJECT SECTION -->
-
+    </div>
 	</div>
 	<!-- END:: CONTENT -->
-</div>
+
+  <!-- START:: INSTALLMENT MODAL -->
+  <div class="modal fade" id="add-installment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> ابحث خلال فتر زمنية </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="kt-form pb-0 p-3">
+
+            <div class="row">
+
+              <div class="form-group col-12 col-md-6">
+                <div class="row">
+                  <label class="col-form-label col-12">اسم العميل  </label>
+                  <div class="input-group-prepend col-12">
+                    <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
+                    <input type="text" class="form-control" placeholder="الإسم">
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group col-12 col-md-6">
+                <div class="row">
+                  <label class="col-form-label col-12">اسم مسؤل التحصيل  </label>
+                  <div class="input-group-prepend col-12">
+                    <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
+                    <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
+                      <option> اختار اسم المسؤل</option>
+                      <option value="1">محمد عيد</option>
+                      <option value="2">عمر ايهاب</option>
+                      <option value="3">محمود سليمان</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group col-12 col-md-6">
+                <div class="row">
+                  <label class="col-form-label col-12">المبلغ  </label>
+                  <div class="input-group-prepend col-12">
+                    <span class="input-group-text"> <i class="la la-dollar" style="font-size: 18px"></i> </span>
+                    <input type="text" class="form-control" placeholder="المبلغ">
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group col-12 col-md-6">
+                <div class="row">
+                  <label class="col-form-label col-12"> طريقة الدفع  </label>
+                  <div class="input-group-prepend col-12">
+                    <span class="input-group-text"> <i class="la la-bookmark" style="font-size: 18px"></i> </span>
+                    <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
+                      <option> اختار طريقة الدفع</option>
+                      <option value="1"> كاش  </option>
+                      <option value="2"> تحويل بنكى</option>
+                      <option value="3">فودافون كاش</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group col-12">
+                <div class="row">
+                  <label class="col-form-label col-12">تاريخ الدفعة  </label>
+                  <div class="input-group-prepend col-12">
+                    <span class="input-group-text"> <i class="la la-calendar" style="font-size: 18px"></i> </span>
+                    <input type="text" class="form-control" readonly value="05/20/2017" id="kt_datepicker_3" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group col-12 col-md-12">
+                <div class="row">
+                  <label class="col-form-label col-12"> ملاحظات </label>
+                  <div class="input-group-prepend col-12">
+                    <textarea class="default">
+                    </textarea>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">الغاء</button>
+          <button type="button" class="done btn btn-success"> تاكيد </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END:: INSTALLMENT MODAL -->
 
 <!-- START:: INCLUDING FOOTER -->
 <?php include('layouts/footer.php') ?>
