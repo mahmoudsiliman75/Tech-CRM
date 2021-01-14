@@ -193,7 +193,7 @@
                       </li>
 
                       <li class="kt-menu__item">
-												<a href="follow-up-list.php" class="kt-menu__link kt-menu__toggle"> قائمة متابعات العملاء المحتملين </a>
+												<a href="follow-up-list.php" class="kt-menu__link kt-menu__toggle"> قائمة المتابعات  </a>
                       </li>
 
                       <li class="kt-menu__item">
