@@ -205,10 +205,6 @@
                       </li>
 
                       <li class="kt-menu__item">
-												<a href="clients-archive.php" class="kt-menu__link kt-menu__toggle"> قائمة ارشيف العملاء  </a>
-											</li>
-
-                      <li class="kt-menu__item">
 												<a href="project-managers-list.php" class="kt-menu__link kt-menu__toggle"> قائمة توزيع المشاريع  </a>
 											</li>
 

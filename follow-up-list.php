@@ -13,7 +13,7 @@
         <div class="kt-portlet">
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label">
-              <h3 class="kt-portlet__head-title"> قائمة متابعات العملاء </h3>
+              <h3 class="kt-portlet__head-title"> قائمة المتابعات </h3>
             </div>
           </div>
         <div>
