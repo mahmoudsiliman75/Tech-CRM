@@ -284,14 +284,14 @@
 
               <tr>
                 <td>1</td>
-                <td> محمد عيد </td>
+                <td> محمود سليمان </td>
                 <td> 2020 - 12 -30 </td>
                 <td> الملاحظات ان وجدت </td>
                 <td> 400 </td>
                 <td> 200 </td>
                 <td align="right">
 
-                  <a href="#" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="الاداء">
+                  <a href="EmployeePerformance.php" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="الاداء">
                     <i class="la la-star-o"></i>
                   </a>
 

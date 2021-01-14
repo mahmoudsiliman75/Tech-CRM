@@ -259,7 +259,7 @@
               </div>
             </div>
           </div>
-        <div>
+        <div></div>
         <!--END::PORTEL-->
 
         <!-- START:: SEARCH FILTER MODAL -->
