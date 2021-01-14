@@ -133,7 +133,7 @@
                 <div class="row">
                   <label class="col-form-label col-12">اضافة ملف العقد</label>
                   <div class="input-group-prepend col-12 row">
-                    <div class="dropzone dropzone-multi col-12" id="kt_dropzone_4">
+                    <div class="dropzone dropzone-multi col-12" id="newDeal">
 
                       <div class="dropzone-panel">
                         <a class="dropzone-select btn btn-label-brand btn-bold btn-sm">اضافه ملف</a>
