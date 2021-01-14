@@ -37,8 +37,13 @@
               <div class="row">
                 <label class="col-form-label col-12">اسم العميل </label>
                 <div class="input-group-prepend col-12">
-                  <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
-                  <input type="text" class="form-control" placeholder="اسم العميل ">
+                <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
+                  <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
+                    <option>اختار اسم العميل</option>
+                    <option value="1">عميل 1</option>
+                    <option value="2">عميل 2</option>
+                    <option value="3"> عميل 3 </option>
+                  </select>
                 </div>
               </div>
             </div>
@@ -164,6 +169,16 @@
               </div>
 
             </div>
+
+            <div class="form-group col-12 col-md-12">
+                <div class="row">
+                  <label class="col-form-label col-12"> ملاحظات </label>
+                  <div class="input-group-prepend col-12">
+                    <textarea class="default">
+                    </textarea>
+                  </div>
+                </div>
+              </div>
 
             <div class="form-group col-12 px-4">
               <div class="input-group">
