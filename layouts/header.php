@@ -196,9 +196,6 @@
 												<a href="follow-up-list.php" class="kt-menu__link kt-menu__toggle"> قائمة المتابعات  </a>
                       </li>
 
-
-
-
                       <li class="kt-menu__item">
 												<a href="project-managers-list.php" class="kt-menu__link kt-menu__toggle"> قائمة توزيع المشاريع  </a>
 											</li>
@@ -333,7 +330,19 @@
 												</div>
 											</div>
 										</a>
-										<a href="custom/apps/user/profile-3.html" class="kt-notification__item">
+
+                    <a href="edit-profile.php" class="kt-notification__item">
+											<div class="kt-notification__item-icon">
+												<i class="flaticon-cogwheel-1 kt-font-success"></i>
+											</div>
+											<div class="kt-notification__item-details">
+												<div class="kt-notification__item-title kt-font-bold">
+													تعديل الصفحة الشخصية
+												</div>
+											</div>
+										</a>
+
+										<a href="#" class="kt-notification__item">
 											<div class="kt-notification__item-icon">
 												<i class="flaticon2-mail kt-font-warning"></i>
 											</div>

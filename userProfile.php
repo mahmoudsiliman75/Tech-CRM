@@ -7,13 +7,6 @@
 
     <div class="kt-portlet kt-portlet--height-fluid- col-12 col-md-4 justify-content-center align-items-center" style="max-height: 250px">
 
-      <div class="kt-portlet__head kt-portlet__head--noborder">
-        <div class="kt-portlet__head-label">
-          <h3 class="kt-portlet__head-title">
-          </h3>
-        </div>
-      </div>
-
       <div class="kt-portlet__body">
         <!--begin::Widget -->
         <div class="kt-widget kt-widget--user-profile-2">
