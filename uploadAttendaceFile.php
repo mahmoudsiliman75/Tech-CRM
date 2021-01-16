@@ -9,14 +9,14 @@
       <div class="col-12">
         <!--START::PORTEL-->
         <div class="kt-portlet">
-          <div class="kt-portlet__head">
-            <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
-              <h3 class="kt-portlet__head-title"> رفع ملف الحضور </h3>
-            </div>
+
+        <!-- START:: TITLE -->
+        <div class="kt-portlet__head">
+          <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
+            <h3 class="kt-portlet__head-title"> رفع ملف الحضور </h3>
           </div>
-        <div>
         </div>
-        <!--END::PORTEL-->
+        <!--END:: TITLE-->
 
         <!--START:: ADD NEW HOSTING FORM-->
         <form class="kt-form p-3">

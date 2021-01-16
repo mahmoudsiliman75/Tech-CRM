@@ -7,20 +7,18 @@
 
     <div class="row">
       <div class="col-12">
-        <!--START::PORTEL-->
+
         <div class="kt-portlet">
+
           <div class="kt-portlet__head">
             <div class="kt-portlet__head-label d-flex justify-content-between w-100">
-              <h3 class="kt-portlet__head-title"> قائمة المستخدمين </h3>
-              <div class="btns-box">
-                <a href="addNewUser.php" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-plus"></i> إضافة مستخدم جديد </a>
-                <a href="UsersArchive.php" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-hdd-o"></i>  ارشيف المستخدمين  </a>
-              </div>
+                <h3 class="kt-portlet__head-title"> قائمة المستخدمين </h3>
+                <div class="btns-box">
+                  <a href="addNewUser.php" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-plus"></i> إضافة مستخدم جديد </a>
+                  <a href="UsersArchive.php" type="button" class="btn btn-outline-success mx-1 mb-1"> <i class="la la-hdd-o"></i>  ارشيف المستخدمين  </a>
+                </div>
             </div>
           </div>
-        <div>
-        </div>
-        <!--START::PORTEL-->
 
         <!--START: NEW USER DATATABLE-->
         <div class="kt-portlet__body kt-portlet__body--fit">

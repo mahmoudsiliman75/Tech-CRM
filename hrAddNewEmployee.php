@@ -8,17 +8,15 @@
   <div class="row">
       <div class="col-12">
 
-        <!--START::PORTEL-->
         <div class="kt-portlet">
-          <div class="kt-portlet__head">
-            <div class="kt-portlet__head-label">
-              <h3 class="kt-portlet__head-title"> اضافة موظف جديد </h3>
-            </div>
-          </div>
-        <div>
-        </div>
-        <!--END::PORTEL-->
 
+        <!-- START:: TITLE -->
+        <div class="kt-portlet__head">
+          <div class="kt-portlet__head-label d-flex justify-content-between w-100">
+            <h3 class="kt-portlet__head-title"> اضافة موظف جديد </h3>
+          </div>
+        </div>
+        <!--END:: TITLE-->
 
         <!--START:: ADD NEW EMPLOYEE FORM-->
         <form class="kt-form p-3">

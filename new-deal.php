@@ -9,11 +9,14 @@
 
       <!--START::PORTEL-->
       <div class="kt-portlet">
+
+      <!-- START:: TITLE -->
         <div class="kt-portlet__head">
           <div class="kt-portlet__head-label">
             <h3 class="kt-portlet__head-title"> اضافة تعاقد جديد </h3>
           </div>
         </div>
+        <!-- END:: TITLE -->
 
         <!--START:: ADD NEW USER FORM-->
         <form class="kt-form p-3">

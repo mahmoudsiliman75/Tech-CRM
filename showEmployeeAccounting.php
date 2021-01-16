@@ -132,19 +132,19 @@
       <div class="col-12">
         <!--START::PORTEL-->
         <div class="kt-portlet">
-          <div class="kt-portlet__head">
-            <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
-              <h3 class="kt-portlet__head-title">  سجل الحسابات  </h3>
+        
+        <!-- START:: TITLE -->
+        <div class="kt-portlet__head">
+          <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
+            <h3 class="kt-portlet__head-title">  سجل الحسابات  </h3>
 
-              <div class="btns-box">
-                <button type="button" class="btn btn-outline-success mx-1 mb-1" data-toggle="modal" data-target="#search-filter"> <i class="la la-search"></i>  تحديد فترة محاسبية  </button>
-                <button type="button" class="btn btn-outline-success mx-1 mb-1" data-toggle="modal" data-target="#add-salary"> <i class="la la-plus"></i>  اضافة قبض  </button>
-              </div>
+            <div class="btns-box">
+              <button type="button" class="btn btn-outline-success mx-1 mb-1" data-toggle="modal" data-target="#search-filter"> <i class="la la-search"></i>  تحديد فترة محاسبية  </button>
+              <button type="button" class="btn btn-outline-success mx-1 mb-1" data-toggle="modal" data-target="#add-salary"> <i class="la la-plus"></i>  اضافة قبض  </button>
             </div>
           </div>
-        <div>
         </div>
-        <!--START::PORTEL-->
+        <!--END:: TITLE-->
 
         <!-- START:: SEARCH FILTER MODAL -->
         <div class="modal fade" id="search-filter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

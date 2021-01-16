@@ -11,14 +11,14 @@
 
         <!--START::PORTEL-->
         <div class="kt-portlet">
-          <div class="kt-portlet__head">
-            <div class="kt-portlet__head-label">
-              <h3 class="kt-portlet__head-title"> قائمة مديرين المشاريع </h3>
-            </div>
+
+        <!-- START:: TITLE -->
+        <div class="kt-portlet__head">
+          <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
+            <h3 class="kt-portlet__head-title"> قائمة مديرين المشاريع </h3>
           </div>
-        <div>
         </div>
-        <!--START::PORTEL-->
+        <!--END:: TITLE -->
 
         <!--START: LEADS DATATABLE-->
         <div class="kt-portlet__body kt-portlet__body--fit">

@@ -10,12 +10,14 @@
       <div class="col-12">
         <!--START::PORTEL-->
         <div class="kt-portlet">
+
+          <!-- START:: TITLE -->
           <div class="kt-portlet__head">
-            <div class="kt-portlet__head-label">
+            <div class="kt-portlet__head-label title-container d-flex justify-content-between w-100">
               <h3 class="kt-portlet__head-title">  إضافة متابعة عميل </h3>
             </div>
           </div>
-        <!--START::PORTEL-->
+          <!-- END::  TITLE -->
 
         <!-- START:: LEADS LIST -->
         <div class="kt-portlet__body kt-portlet__body--fit ">
