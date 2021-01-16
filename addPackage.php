@@ -27,7 +27,7 @@
                 <label class="col-form-label col-12 text-center">اسم الباقة </label>
                 <div class="input-group-prepend col-12">
                   <span class="input-group-text"> <i class="la la-pencil" style="font-size: 19px;"></i> </span>
-                  <input type="text" class="form-control" placeholder="اسم الخدمة">
+                  <input type="text" class="form-control" placeholder="اسم الباقة">
                 </div>
               </div>
             </div>
@@ -37,7 +37,7 @@
                 <label class="col-form-label col-12 text-center">التكلفة  </label>
                 <div class="input-group-prepend col-12">
                   <span class="input-group-text"> <i class="la la-dollar" style="font-size: 19px;"></i> </span>
-                  <input type="text" class="form-control" placeholder="اسم الخدمة">
+                  <input type="text" class="form-control" placeholder=" التكلفة">
                 </div>
               </div>
             </div>

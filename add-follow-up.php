@@ -15,8 +15,6 @@
               <h3 class="kt-portlet__head-title">  إضافة متابعة عميل </h3>
             </div>
           </div>
-        <div>
-        </div>
         <!--START::PORTEL-->
 
         <!-- START:: LEADS LIST -->

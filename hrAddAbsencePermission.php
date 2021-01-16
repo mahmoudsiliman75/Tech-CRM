@@ -15,7 +15,6 @@
             </div>
           </div>
         <div>
-        </div>
         <!--START::PORTEL-->
 
         <!-- START:: PERMISSION FORM -->
@@ -72,12 +71,12 @@
               </div>
             </div>
 
-
             <div class="form-group col-12 col-md-12">
               <div class="row">
-                <label class="col-form-label col-12">  البيان </label>
+                <label class="col-form-label col-12"> البيان </label>
                 <div class="input-group-prepend col-12">
-                  <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                  <textarea class="default">
+                  </textarea>
                 </div>
               </div>
             </div>
