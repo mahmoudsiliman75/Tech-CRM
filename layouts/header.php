@@ -218,7 +218,7 @@
                       </li>
 
 											<li class="kt-menu__item">
-												<a href="#" class="kt-menu__link kt-menu__toggle">  الارباح و الخسائر  </a>
+												<a href="ProfitsAndLoses.php" class="kt-menu__link kt-menu__toggle">  الارباح و الخسائر  </a>
                       </li>
 
 										</ul>
