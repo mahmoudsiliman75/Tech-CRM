@@ -75,7 +75,7 @@
         <!-- START:: TITLE -->
         <div class="kt-portlet__head">
           <div class="kt-portlet__head-label d-flex justify-content-between w-100">
-            <h3 class="kt-portlet__head-title"> الاريباح و الخسائر </h3>
+            <h3 class="kt-portlet__head-title"> الارباح و الخسائر </h3>
             <div class="btns-box">
               <button type="button" class="btn btn-outline-success mx-1 mb-1" data-toggle="modal" data-target="#search-filter"> <i class="la la-search"></i>  تحديد فترة زمنية  </button>
             </div>

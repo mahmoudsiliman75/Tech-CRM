@@ -296,6 +296,10 @@
                     <i class="la la-star-o"></i>
                   </a>
 
+                  <a href="EmployeeSalaryDetails.php" class="kt-badge kt-badge--outline kt-badge--primary" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="" data-original-title="مفردات المرتب">
+                    <i class="la la-dollar font-weight-bold"></i>
+                  </a>
+
                 </td>
               </tr>
 
